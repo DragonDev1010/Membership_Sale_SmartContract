@@ -1,5 +1,5 @@
 {
-  "contractName": "Membership",
+  "contractName": "Test",
   "abi": [
     {
       "constant": true,
@@ -87,21 +87,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"gold_buy\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"gold_list\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"sell_approve\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"card_id\",\"type\":\"uint256\"}],\"name\":\"gold_request_buy\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"gold_sell\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"invest\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/oncemore/Blockchain Work/membership/contracts/Membership.sol\":\"Membership\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/oncemore/Blockchain Work/membership/contracts/Membership.sol\":{\"keccak256\":\"0x094645fa46fe1d9da99f7d583ba7a9e38b7e70ca2ae4654a2ff4d506d263315e\",\"urls\":[\"bzz-raw://e03201d0554bc89ecaad08ed1da69df1c341bba41e4ef7a89543a3b85d167619\",\"dweb:/ipfs/QmZjM4enaQ2xEHuoGcqgA3iF7tVWGJxQ2csfJ9FFPP7T87\"]}},\"version\":1}",
-  "bytecode": "0x6080604052600060015534801561001557600080fd5b506104e8806100256000396000f3fe60806040526004361061004a5760003560e01c806305c9714a1461004f578063147e2e8314610059578063c364c9b71461009f578063e8b5e51f146100cd578063eaa6fd99146100d7575b600080fd5b610057610164565b005b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610259565b604051808215151515815260200191505060405180910390f35b6100cb600480360360208110156100b557600080fd5b8101908080359060200190929190505050610310565b005b6100d561045a565b005b3480156100e357600080fd5b50610110600480360360208110156100fa57600080fd5b810190808035906020019092919050505061045c565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200182151515158152602001935050505060405180910390f35b600f6001541061017357600080fd5b678ac7230489e8000034101561018857600080fd5b60405180606001604052803373ffffffffffffffffffffffffffffffffffffffff1681526020016000815260200160001515815250600080600154815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506020820151816001015560408201518160020160006101000a81548160ff021916908315150217905550905050600160008154809291906001019190505550565b600080600090505b600154811015610305573373ffffffffffffffffffffffffffffffffffffffff1660008083815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156102f8578260008083815260200190815260200160002060010181905550600191505061030b565b8080600101915050610261565b50600090505b919050565b6000806000838152602001908152602001600020600101541161033257600080fd5b6000808281526020019081526020016000206001015434101561035457600080fd5b6001151560008083815260200190815260200160002060020160009054906101000a900460ff1615151461038757600080fd5b60008082815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f19350505050158015610402573d6000803e3d6000fd5b503360008083815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b565b60006020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020160009054906101000a900460ff1690508356fea265627a7a723158207437c5722c6d613b3b7220ceb8045d8c1d4d56c79d14d15972dae15585ebdc6b64736f6c63430005100032",
-  "deployedBytecode": "0x60806040526004361061004a5760003560e01c806305c9714a1461004f578063147e2e8314610059578063c364c9b71461009f578063e8b5e51f146100cd578063eaa6fd99146100d7575b600080fd5b610057610164565b005b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610259565b604051808215151515815260200191505060405180910390f35b6100cb600480360360208110156100b557600080fd5b8101908080359060200190929190505050610310565b005b6100d561045a565b005b3480156100e357600080fd5b50610110600480360360208110156100fa57600080fd5b810190808035906020019092919050505061045c565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200182151515158152602001935050505060405180910390f35b600f6001541061017357600080fd5b678ac7230489e8000034101561018857600080fd5b60405180606001604052803373ffffffffffffffffffffffffffffffffffffffff1681526020016000815260200160001515815250600080600154815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506020820151816001015560408201518160020160006101000a81548160ff021916908315150217905550905050600160008154809291906001019190505550565b600080600090505b600154811015610305573373ffffffffffffffffffffffffffffffffffffffff1660008083815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156102f8578260008083815260200190815260200160002060010181905550600191505061030b565b8080600101915050610261565b50600090505b919050565b6000806000838152602001908152602001600020600101541161033257600080fd5b6000808281526020019081526020016000206001015434101561035457600080fd5b6001151560008083815260200190815260200160002060020160009054906101000a900460ff1615151461038757600080fd5b60008082815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f19350505050158015610402573d6000803e3d6000fd5b503360008083815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b565b60006020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020160009054906101000a900460ff1690508356fea265627a7a723158207437c5722c6d613b3b7220ceb8045d8c1d4d56c79d14d15972dae15585ebdc6b64736f6c63430005100032",
-  "sourceMap": "66:2062:1:-;;;478:1;454:25;;66:2062;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:2062:1;;;;;;;",
-  "deployedSourceMap": "66:2062:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;704:369;;;:::i;:::-;;1169:296;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1169:296:1;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1495:631;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1495:631:1;;;;;;;;;;;;;;;;;:::i;:::-;;614:51;;;:::i;:::-;;378:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;378:39:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;378:39:1;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;704:369;606:2;807:16;;:27;798:38;;;;;;543:4;912:9;:23;;903:34;;;;;;1012:26;;;;;;;;1017:10;1012:26;;;;;;1029:1;1012:26;;;;1032:5;1012:26;;;;;982:9;:27;992:16;;982:27;;;;;;;;;;;:56;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1048:16;;:18;;;;;;;;;;;;;704:369::o;1169:296::-;1224:4;1245:6;1254:1;1245:10;;1240:197;1262:16;;1258:1;:20;1240:197;;;1326:10;1304:32;;:9;:12;1314:1;1304:12;;;;;;;;;;;:18;;;;;;;;;;;;:32;;;1300:127;;;1377:6;1356:9;:12;1366:1;1356:12;;;;;;;;;;;:18;;:27;;;;1408:4;1401:11;;;;;1300:127;1281:3;;;;;;;1240:197;;;;1453:5;1446:12;;1169:296;;;;:::o;1495:631::-;1649:1;1622:9;:18;1632:7;1622:18;;;;;;;;;;;:24;;;:28;1613:39;;;;;;1746:9;:18;1756:7;1746:18;;;;;;;;;;;:24;;;1733:9;:37;;1724:48;;;;;;1888:4;1853:39;;:9;:18;1863:7;1853:18;;;;;;;;;;;:31;;;;;;;;;;;;:39;;;1844:50;;;;;;1964:9;:18;1974:7;1964:18;;;;;;;;;;;:24;;;;;;;;;;;;1956:42;;:53;1999:9;1956:53;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1956:53:1;2109:10;2082:9;:18;2092:7;2082:18;;;;;;;;;;;:24;;;:37;;;;;;;;;;;;;;;;;;1495:631;:::o;614:51::-;:::o;378:39::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.21 <0.6.0;\n\ncontract Membership {\n    // gold card owner : {address: owner, uint: price}\n    // // if price == 0, owner is not going to sell \n    // // if price != 0, owner is going to sell\n    struct Gold {\n        address payable owner;\n        uint price;\n        bool sell_approve;\n    }\n    // gold card owner list\n    mapping (uint => Gold) public gold_list;\n    // gold card owner account\n    uint gold_owner_count = 0;\n    // gold card default price\n    uint constant gold_price = 1e19;\n    // gold card max amount\n    uint constant gold_max = 15;\n    function invest() external payable {\n        \n    }\n    // gold card buy (MU -> user)\n    function gold_buy() public payable {\n        // require : original card is remaining.\n        require( gold_owner_count < gold_max );\n        // require : ETH is greater than gold card price\n        require( msg.value >= gold_price );\n        // register new gold owner\n        gold_list[gold_owner_count] = Gold(msg.sender, 0, false);\n        gold_owner_count++;\n    }\n    // are going to sell gold card\n    // check if the function caller is gold card owner \n    function gold_sell(uint _price) public payable returns(bool) {\n        for (uint i = 0 ; i < gold_owner_count ; i++) {\n            if (gold_list[i].owner == msg.sender) {\n                gold_list[i].price = _price;\n                return true;\n            }\n        }\n        return false;\n    }\n    // request card buy \n    function gold_request_buy (uint card_id) public payable {\n        // require: card is placed on the sell list\n        require( gold_list[card_id].price > 0 );\n        // require: request buy is greater than minimum price\n        require( msg.value >= gold_list[card_id].price );\n        // require : check if card owner approves the request\n        require( gold_list[card_id].sell_approve == true );\n        // transfer ETH from new owner to old owner\n        address(gold_list[card_id].owner).transfer(msg.value);\n        // move the card ownership from old owner to new owner\n        gold_list[card_id].owner = msg.sender;\n    }\n}",
-  "sourcePath": "/home/oncemore/Blockchain Work/membership/contracts/Membership.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"gold_buy\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"gold_list\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"},{\"internalType\":\"bool\",\"name\":\"sell_approve\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"card_id\",\"type\":\"uint256\"}],\"name\":\"gold_request_buy\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"gold_sell\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"invest\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/oncemore/Blockchain Work/membership/contracts/Test.sol\":\"Test\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/oncemore/Blockchain Work/membership/contracts/Test.sol\":{\"keccak256\":\"0xa4d1b7e9787d5515b9386d91422407b4a2fc4a70ce9743488621a458384e3943\",\"urls\":[\"bzz-raw://09aa4737950d7ee6084a933e1b4f055fdacd0cce307f56562da45090c9052d15\",\"dweb:/ipfs/QmeyWpmFaKDcafcmoLPFheGXK23cpKfDpXNK6UDD1PuVAK\"]}},\"version\":1}",
+  "bytecode": "0x6080604052600060015534801561001557600080fd5b50610559806100256000396000f3fe60806040526004361061004a5760003560e01c806305c9714a1461004f578063147e2e8314610059578063c364c9b71461009f578063e8b5e51f146100cd578063eaa6fd99146100d7575b600080fd5b610057610164565b005b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610259565b604051808215151515815260200191505060405180910390f35b6100cb600480360360208110156100b557600080fd5b8101908080359060200190929190505050610310565b005b6100d5610492565b005b3480156100e357600080fd5b50610110600480360360208110156100fa57600080fd5b8101908080359060200190929190505050610494565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200182151515158152602001935050505060405180910390f35b600f6001541061017357600080fd5b678ac7230489e8000034101561018857600080fd5b60405180606001604052803373ffffffffffffffffffffffffffffffffffffffff1681526020016000815260200160001515815250600080600154815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506020820151816001015560408201518160020160006101000a81548160ff021916908315150217905550905050600160008154809291906001019190505550565b600080600090505b600154811015610305573373ffffffffffffffffffffffffffffffffffffffff1660008083815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156102f8578260008083815260200190815260200160002060010181905550600191505061030b565b8080600101915050610261565b50600090505b919050565b6103186104eb565b6000808381526020019081526020016000206040518060600160405290816000820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001600182015481526020016002820160009054906101000a900460ff161515151581525050905060008160200151116103c357600080fd5b80602001513410156103d457600080fd5b6001151581604001511515146103e957600080fd5b6000816000015190508073ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f19350505050158015610438573d6000803e3d6000fd5b503360008085815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505050565b565b60006020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020160009054906101000a900460ff16905083565b6040518060600160405280600073ffffffffffffffffffffffffffffffffffffffff16815260200160008152602001600015158152509056fea265627a7a72315820e268c57ada1ff1988284ba2f04202f6db403657904543fe0e0d618c55e7f7eb564736f6c63430005100032",
+  "deployedBytecode": "0x60806040526004361061004a5760003560e01c806305c9714a1461004f578063147e2e8314610059578063c364c9b71461009f578063e8b5e51f146100cd578063eaa6fd99146100d7575b600080fd5b610057610164565b005b6100856004803603602081101561006f57600080fd5b8101908080359060200190929190505050610259565b604051808215151515815260200191505060405180910390f35b6100cb600480360360208110156100b557600080fd5b8101908080359060200190929190505050610310565b005b6100d5610492565b005b3480156100e357600080fd5b50610110600480360360208110156100fa57600080fd5b8101908080359060200190929190505050610494565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200182151515158152602001935050505060405180910390f35b600f6001541061017357600080fd5b678ac7230489e8000034101561018857600080fd5b60405180606001604052803373ffffffffffffffffffffffffffffffffffffffff1681526020016000815260200160001515815250600080600154815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506020820151816001015560408201518160020160006101000a81548160ff021916908315150217905550905050600160008154809291906001019190505550565b600080600090505b600154811015610305573373ffffffffffffffffffffffffffffffffffffffff1660008083815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614156102f8578260008083815260200190815260200160002060010181905550600191505061030b565b8080600101915050610261565b50600090505b919050565b6103186104eb565b6000808381526020019081526020016000206040518060600160405290816000820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001600182015481526020016002820160009054906101000a900460ff161515151581525050905060008160200151116103c357600080fd5b80602001513410156103d457600080fd5b6001151581604001511515146103e957600080fd5b6000816000015190508073ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f19350505050158015610438573d6000803e3d6000fd5b503360008085815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505050565b565b60006020528060005260406000206000915090508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060010154908060020160009054906101000a900460ff16905083565b6040518060600160405280600073ffffffffffffffffffffffffffffffffffffffff16815260200160008152602001600015158152509056fea265627a7a72315820e268c57ada1ff1988284ba2f04202f6db403657904543fe0e0d618c55e7f7eb564736f6c63430005100032",
+  "sourceMap": "66:2120:1:-;;;472:1;448:25;;66:2120;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:2120:1;;;;;;;",
+  "deployedSourceMap": "66:2120:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;698:369;;;:::i;:::-;;1163:296;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1163:296:1;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1489:695;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1489:695:1;;;;;;;;;;;;;;;;;:::i;:::-;;608:51;;;:::i;:::-;;372:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;372:39:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;372:39:1;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;698:369;600:2;801:16;;:27;792:38;;;;;;537:4;906:9;:23;;897:34;;;;;;1006:26;;;;;;;;1011:10;1006:26;;;;;;1023:1;1006:26;;;;1026:5;1006:26;;;;;976:9;:27;986:16;;976:27;;;;;;;;;;;:56;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1042:16;;:18;;;;;;;;;;;;;698:369::o;1163:296::-;1218:4;1239:6;1248:1;1239:10;;1234:197;1256:16;;1252:1;:20;1234:197;;;1320:10;1298:32;;:9;:12;1308:1;1298:12;;;;;;;;;;;:18;;;;;;;;;;;;:32;;;1294:127;;;1371:6;1350:9;:12;1360:1;1350:12;;;;;;;;;;;:18;;:27;;;;1402:4;1395:11;;;;;1294:127;1275:3;;;;;;;1234:197;;;;1447:5;1440:12;;1163:296;;;;:::o;1489:695::-;1555:22;;:::i;:::-;1580:9;:18;1590:7;1580:18;;;;;;;;;;;1555:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1688:1;1669:10;:16;;;:20;1660:31;;;;;;1785:10;:16;;;1772:9;:29;;1763:40;;;;;;1911:4;1884:31;;:10;:23;;;:31;;;1875:42;;;;;;1979:23;2005:10;:16;;;1979:42;;2039:7;2031:25;;:36;2057:9;2031:36;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;2031:36:1;2167:10;2140:9;:18;2150:7;2140:18;;;;;;;;;;;:24;;;:37;;;;;;;;;;;;;;;;;;1489:695;;;:::o;608:51::-;:::o;372:39::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;66:2120::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.21 <0.6.0;\n\ncontract Test {\n    // gold card owner : {address: owner, uint: price}\n    // // if price == 0, owner is not going to sell \n    // // if price != 0, owner is going to sell\n    struct Gold {\n        address payable owner;\n        uint price;\n        bool sell_approve;\n    }\n    // gold card owner list\n    mapping (uint => Gold) public gold_list;\n    // gold card owner account\n    uint gold_owner_count = 0;\n    // gold card default price\n    uint constant gold_price = 1e19;\n    // gold card max amount\n    uint constant gold_max = 15;\n    function invest() external payable {\n        \n    }\n    // gold card buy (MU -> user)\n    function gold_buy() public payable {\n        // require : original card is remaining.\n        require( gold_owner_count < gold_max );\n        // require : ETH is greater than gold card price\n        require( msg.value >= gold_price );\n        // register new gold owner\n        gold_list[gold_owner_count] = Gold(msg.sender, 0, false);\n        gold_owner_count++;\n    }\n    // are going to sell gold card\n    // check if the function caller is gold card owner \n    function gold_sell(uint _price) public payable returns(bool) {\n        for (uint i = 0 ; i < gold_owner_count ; i++) {\n            if (gold_list[i].owner == msg.sender) {\n                gold_list[i].price = _price;\n                return true;\n            }\n        }\n        return false;\n    }\n    // request card buy \n    function gold_request_buy (uint card_id) public payable {\n        Gold memory _gold_card = gold_list[card_id];\n        // require: card is placed on the sell list\n        require( _gold_card.price > 0 );\n        // require: request buy is greater than minimum price\n        require( msg.value >= _gold_card.price );\n        // require : check if card owner approves the request\n        require( _gold_card.sell_approve == true );\n        // transfer ETH from new owner to old owner\n        address payable _seller = _gold_card.owner;\n        address(_seller).transfer(msg.value);\n        // move the card ownership from old owner to new owner\n        gold_list[card_id].owner = msg.sender;\n    }\n}",
+  "sourcePath": "/home/oncemore/Blockchain Work/membership/contracts/Test.sol",
   "ast": {
-    "absolutePath": "/home/oncemore/Blockchain Work/membership/contracts/Membership.sol",
+    "absolutePath": "/home/oncemore/Blockchain Work/membership/contracts/Test.sol",
     "exportedSymbols": {
-      "Membership": [
-        474
+      "Test": [
+        476
       ]
     },
-    "id": 475,
+    "id": 477,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -124,15 +124,15 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 474,
+        "id": 476,
         "linearizedBaseContracts": [
-          474
+          476
         ],
-        "name": "Membership",
+        "name": "Test",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "canonicalName": "Membership.Gold",
+            "canonicalName": "Test.Gold",
             "id": 332,
             "members": [
               {
@@ -141,7 +141,7 @@
                 "name": "owner",
                 "nodeType": "VariableDeclaration",
                 "scope": 332,
-                "src": "270:21:1",
+                "src": "264:21:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -152,7 +152,7 @@
                   "id": 326,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "270:15:1",
+                  "src": "264:15:1",
                   "stateMutability": "payable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address_payable",
@@ -168,7 +168,7 @@
                 "name": "price",
                 "nodeType": "VariableDeclaration",
                 "scope": 332,
-                "src": "301:10:1",
+                "src": "295:10:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -179,7 +179,7 @@
                   "id": 328,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "301:4:1",
+                  "src": "295:4:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -194,7 +194,7 @@
                 "name": "sell_approve",
                 "nodeType": "VariableDeclaration",
                 "scope": 332,
-                "src": "321:17:1",
+                "src": "315:17:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -205,7 +205,7 @@
                   "id": 330,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "321:4:1",
+                  "src": "315:4:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -217,8 +217,8 @@
             ],
             "name": "Gold",
             "nodeType": "StructDefinition",
-            "scope": 474,
-            "src": "248:97:1",
+            "scope": 476,
+            "src": "242:97:1",
             "visibility": "public"
           },
           {
@@ -226,13 +226,13 @@
             "id": 336,
             "name": "gold_list",
             "nodeType": "VariableDeclaration",
-            "scope": 474,
-            "src": "378:39:1",
+            "scope": 476,
+            "src": "372:39:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
               "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-              "typeString": "mapping(uint256 => struct Membership.Gold)"
+              "typeString": "mapping(uint256 => struct Test.Gold)"
             },
             "typeName": {
               "id": 335,
@@ -240,17 +240,17 @@
                 "id": 333,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "387:4:1",
+                "src": "381:4:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "378:22:1",
+              "src": "372:22:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                "typeString": "mapping(uint256 => struct Membership.Gold)"
+                "typeString": "mapping(uint256 => struct Test.Gold)"
               },
               "valueType": {
                 "contractScope": null,
@@ -258,10 +258,10 @@
                 "name": "Gold",
                 "nodeType": "UserDefinedTypeName",
                 "referencedDeclaration": 332,
-                "src": "395:4:1",
+                "src": "389:4:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Gold_$332_storage_ptr",
-                  "typeString": "struct Membership.Gold"
+                  "typeString": "struct Test.Gold"
                 }
               }
             },
@@ -273,8 +273,8 @@
             "id": 339,
             "name": "gold_owner_count",
             "nodeType": "VariableDeclaration",
-            "scope": 474,
-            "src": "454:25:1",
+            "scope": 476,
+            "src": "448:25:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -285,7 +285,7 @@
               "id": 337,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "454:4:1",
+              "src": "448:4:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -301,7 +301,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "478:1:1",
+              "src": "472:1:1",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -316,8 +316,8 @@
             "id": 342,
             "name": "gold_price",
             "nodeType": "VariableDeclaration",
-            "scope": 474,
-            "src": "516:31:1",
+            "scope": 476,
+            "src": "510:31:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -328,7 +328,7 @@
               "id": 340,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "516:4:1",
+              "src": "510:4:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -344,7 +344,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "543:4:1",
+              "src": "537:4:1",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_10000000000000000000_by_1",
@@ -359,8 +359,8 @@
             "id": 345,
             "name": "gold_max",
             "nodeType": "VariableDeclaration",
-            "scope": 474,
-            "src": "581:27:1",
+            "scope": 476,
+            "src": "575:27:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -371,7 +371,7 @@
               "id": 343,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "581:4:1",
+              "src": "575:4:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -387,7 +387,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "606:2:1",
+              "src": "600:2:1",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_15_by_1",
@@ -401,7 +401,7 @@
             "body": {
               "id": 348,
               "nodeType": "Block",
-              "src": "649:16:1",
+              "src": "643:16:1",
               "statements": []
             },
             "documentation": null,
@@ -415,16 +415,16 @@
               "id": 346,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "629:2:1"
+              "src": "623:2:1"
             },
             "returnParameters": {
               "id": 347,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "649:0:1"
+              "src": "643:0:1"
             },
-            "scope": 474,
-            "src": "614:51:1",
+            "scope": 476,
+            "src": "608:51:1",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "external"
@@ -433,7 +433,7 @@
             "body": {
               "id": 379,
               "nodeType": "Block",
-              "src": "739:334:1",
+              "src": "733:334:1",
               "statements": [
                 {
                   "expression": {
@@ -457,7 +457,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 339,
-                          "src": "807:16:1",
+                          "src": "801:16:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -472,13 +472,13 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 345,
-                          "src": "826:8:1",
+                          "src": "820:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "807:27:1",
+                        "src": "801:27:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -496,11 +496,11 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        492,
-                        493
+                        494,
+                        495
                       ],
-                      "referencedDeclaration": 492,
-                      "src": "798:7:1",
+                      "referencedDeclaration": 494,
+                      "src": "792:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -514,7 +514,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "798:38:1",
+                    "src": "792:38:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -522,7 +522,7 @@
                   },
                   "id": 357,
                   "nodeType": "ExpressionStatement",
-                  "src": "798:38:1"
+                  "src": "792:38:1"
                 },
                 {
                   "expression": {
@@ -547,8 +547,8 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 489,
-                            "src": "912:3:1",
+                            "referencedDeclaration": 491,
+                            "src": "906:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -562,7 +562,7 @@
                           "memberName": "value",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "912:9:1",
+                          "src": "906:9:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -577,13 +577,13 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 342,
-                          "src": "925:10:1",
+                          "src": "919:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "912:23:1",
+                        "src": "906:23:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -601,11 +601,11 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        492,
-                        493
+                        494,
+                        495
                       ],
-                      "referencedDeclaration": 492,
-                      "src": "903:7:1",
+                      "referencedDeclaration": 494,
+                      "src": "897:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -619,7 +619,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "903:34:1",
+                    "src": "897:34:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -627,7 +627,7 @@
                   },
                   "id": 364,
                   "nodeType": "ExpressionStatement",
-                  "src": "903:34:1"
+                  "src": "897:34:1"
                 },
                 {
                   "expression": {
@@ -646,10 +646,10 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 336,
-                        "src": "982:9:1",
+                        "src": "976:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                          "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
+                          "typeString": "mapping(uint256 => struct Test.Gold storage ref)"
                         }
                       },
                       "id": 367,
@@ -660,7 +660,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 339,
-                        "src": "992:16:1",
+                        "src": "986:16:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -671,10 +671,10 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "982:27:1",
+                      "src": "976:27:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Gold_$332_storage",
-                        "typeString": "struct Membership.Gold storage ref"
+                        "typeString": "struct Test.Gold storage ref"
                       }
                     },
                     "nodeType": "Assignment",
@@ -690,8 +690,8 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 489,
-                            "src": "1017:3:1",
+                            "referencedDeclaration": 491,
+                            "src": "1011:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -705,7 +705,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1017:10:1",
+                          "src": "1011:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
@@ -721,7 +721,7 @@
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1029:1:1",
+                          "src": "1023:1:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
@@ -739,7 +739,7 @@
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1032:5:1",
+                          "src": "1026:5:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -768,10 +768,10 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 332,
-                        "src": "1012:4:1",
+                        "src": "1006:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Gold_$332_storage_ptr_$",
-                          "typeString": "type(struct Membership.Gold storage pointer)"
+                          "typeString": "type(struct Test.Gold storage pointer)"
                         }
                       },
                       "id": 373,
@@ -782,21 +782,21 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "1012:26:1",
+                      "src": "1006:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Gold_$332_memory",
-                        "typeString": "struct Membership.Gold memory"
+                        "typeString": "struct Test.Gold memory"
                       }
                     },
-                    "src": "982:56:1",
+                    "src": "976:56:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Gold_$332_storage",
-                      "typeString": "struct Membership.Gold storage ref"
+                      "typeString": "struct Test.Gold storage ref"
                     }
                   },
                   "id": 375,
                   "nodeType": "ExpressionStatement",
-                  "src": "982:56:1"
+                  "src": "976:56:1"
                 },
                 {
                   "expression": {
@@ -809,7 +809,7 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "1048:18:1",
+                    "src": "1042:18:1",
                     "subExpression": {
                       "argumentTypes": null,
                       "id": 376,
@@ -817,7 +817,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 339,
-                      "src": "1048:16:1",
+                      "src": "1042:16:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -830,7 +830,7 @@
                   },
                   "id": 378,
                   "nodeType": "ExpressionStatement",
-                  "src": "1048:18:1"
+                  "src": "1042:18:1"
                 }
               ]
             },
@@ -845,16 +845,16 @@
               "id": 350,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "721:2:1"
+              "src": "715:2:1"
             },
             "returnParameters": {
               "id": 351,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "739:0:1"
+              "src": "733:0:1"
             },
-            "scope": 474,
-            "src": "704:369:1",
+            "scope": 476,
+            "src": "698:369:1",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
@@ -863,13 +863,13 @@
             "body": {
               "id": 419,
               "nodeType": "Block",
-              "src": "1230:235:1",
+              "src": "1224:235:1",
               "statements": [
                 {
                   "body": {
                     "id": 415,
                     "nodeType": "Block",
-                    "src": "1286:151:1",
+                    "src": "1280:151:1",
                     "statements": [
                       {
                         "condition": {
@@ -894,10 +894,10 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 336,
-                                "src": "1304:9:1",
+                                "src": "1298:9:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                                  "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
+                                  "typeString": "mapping(uint256 => struct Test.Gold storage ref)"
                                 }
                               },
                               "id": 399,
@@ -908,7 +908,7 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 388,
-                                "src": "1314:1:1",
+                                "src": "1308:1:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -919,10 +919,10 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1304:12:1",
+                              "src": "1298:12:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Gold_$332_storage",
-                                "typeString": "struct Membership.Gold storage ref"
+                                "typeString": "struct Test.Gold storage ref"
                               }
                             },
                             "id": 400,
@@ -933,7 +933,7 @@
                             "memberName": "owner",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 327,
-                            "src": "1304:18:1",
+                            "src": "1298:18:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -949,8 +949,8 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 489,
-                              "src": "1326:3:1",
+                              "referencedDeclaration": 491,
+                              "src": "1320:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
@@ -964,13 +964,13 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "1326:10:1",
+                            "src": "1320:10:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
                             }
                           },
-                          "src": "1304:32:1",
+                          "src": "1298:32:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -979,11 +979,11 @@
                         "falseBody": null,
                         "id": 414,
                         "nodeType": "IfStatement",
-                        "src": "1300:127:1",
+                        "src": "1294:127:1",
                         "trueBody": {
                           "id": 413,
                           "nodeType": "Block",
-                          "src": "1338:89:1",
+                          "src": "1332:89:1",
                           "statements": [
                             {
                               "expression": {
@@ -1004,10 +1004,10 @@
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
                                       "referencedDeclaration": 336,
-                                      "src": "1356:9:1",
+                                      "src": "1350:9:1",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                                        "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
+                                        "typeString": "mapping(uint256 => struct Test.Gold storage ref)"
                                       }
                                     },
                                     "id": 406,
@@ -1018,7 +1018,7 @@
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
                                       "referencedDeclaration": 388,
-                                      "src": "1366:1:1",
+                                      "src": "1360:1:1",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_uint256",
                                         "typeString": "uint256"
@@ -1029,10 +1029,10 @@
                                     "isPure": false,
                                     "lValueRequested": false,
                                     "nodeType": "IndexAccess",
-                                    "src": "1356:12:1",
+                                    "src": "1350:12:1",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_struct$_Gold_$332_storage",
-                                      "typeString": "struct Membership.Gold storage ref"
+                                      "typeString": "struct Test.Gold storage ref"
                                     }
                                   },
                                   "id": 407,
@@ -1043,7 +1043,7 @@
                                   "memberName": "price",
                                   "nodeType": "MemberAccess",
                                   "referencedDeclaration": 329,
-                                  "src": "1356:18:1",
+                                  "src": "1350:18:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -1058,13 +1058,13 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 382,
-                                  "src": "1377:6:1",
+                                  "src": "1371:6:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   }
                                 },
-                                "src": "1356:27:1",
+                                "src": "1350:27:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -1072,7 +1072,7 @@
                               },
                               "id": 410,
                               "nodeType": "ExpressionStatement",
-                              "src": "1356:27:1"
+                              "src": "1350:27:1"
                             },
                             {
                               "expression": {
@@ -1085,7 +1085,7 @@
                                 "kind": "bool",
                                 "lValueRequested": false,
                                 "nodeType": "Literal",
-                                "src": "1408:4:1",
+                                "src": "1402:4:1",
                                 "subdenomination": null,
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_bool",
@@ -1096,7 +1096,7 @@
                               "functionReturnParameters": 386,
                               "id": 412,
                               "nodeType": "Return",
-                              "src": "1401:11:1"
+                              "src": "1395:11:1"
                             }
                           ]
                         }
@@ -1121,7 +1121,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 388,
-                      "src": "1258:1:1",
+                      "src": "1252:1:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1136,13 +1136,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 339,
-                      "src": "1262:16:1",
+                      "src": "1256:16:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1258:20:1",
+                    "src": "1252:20:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1160,7 +1160,7 @@
                         "name": "i",
                         "nodeType": "VariableDeclaration",
                         "scope": 416,
-                        "src": "1245:6:1",
+                        "src": "1239:6:1",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -1171,7 +1171,7 @@
                           "id": 387,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1245:4:1",
+                          "src": "1239:4:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1192,7 +1192,7 @@
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1254:1:1",
+                      "src": "1248:1:1",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -1201,7 +1201,7 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "1245:10:1"
+                    "src": "1239:10:1"
                   },
                   "loopExpression": {
                     "expression": {
@@ -1214,7 +1214,7 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "1281:3:1",
+                      "src": "1275:3:1",
                       "subExpression": {
                         "argumentTypes": null,
                         "id": 394,
@@ -1222,7 +1222,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 388,
-                        "src": "1281:1:1",
+                        "src": "1275:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1235,10 +1235,10 @@
                     },
                     "id": 396,
                     "nodeType": "ExpressionStatement",
-                    "src": "1281:3:1"
+                    "src": "1275:3:1"
                   },
                   "nodeType": "ForStatement",
-                  "src": "1240:197:1"
+                  "src": "1234:197:1"
                 },
                 {
                   "expression": {
@@ -1251,7 +1251,7 @@
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "1453:5:1",
+                    "src": "1447:5:1",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -1262,7 +1262,7 @@
                   "functionReturnParameters": 386,
                   "id": 418,
                   "nodeType": "Return",
-                  "src": "1446:12:1"
+                  "src": "1440:12:1"
                 }
               ]
             },
@@ -1283,7 +1283,7 @@
                   "name": "_price",
                   "nodeType": "VariableDeclaration",
                   "scope": 420,
-                  "src": "1188:11:1",
+                  "src": "1182:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1294,7 +1294,7 @@
                     "id": 381,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1188:4:1",
+                    "src": "1182:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1304,7 +1304,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1187:13:1"
+              "src": "1181:13:1"
             },
             "returnParameters": {
               "id": 386,
@@ -1316,7 +1316,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 420,
-                  "src": "1224:4:1",
+                  "src": "1218:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1327,7 +1327,7 @@
                     "id": 384,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1224:4:1",
+                    "src": "1218:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1337,156 +1337,97 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1223:6:1"
+              "src": "1217:6:1"
             },
-            "scope": 474,
-            "src": "1169:296:1",
+            "scope": 476,
+            "src": "1163:296:1",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 472,
+              "id": 474,
               "nodeType": "Block",
-              "src": "1551:575:1",
+              "src": "1545:639:1",
               "statements": [
                 {
-                  "expression": {
-                    "argumentTypes": null,
-                    "arguments": [
-                      {
-                        "argumentTypes": null,
-                        "commonType": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        },
-                        "id": 431,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "leftExpression": {
-                          "argumentTypes": null,
-                          "expression": {
-                            "argumentTypes": null,
-                            "baseExpression": {
-                              "argumentTypes": null,
-                              "id": 426,
-                              "name": "gold_list",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 336,
-                              "src": "1622:9:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                                "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
-                              }
-                            },
-                            "id": 428,
-                            "indexExpression": {
-                              "argumentTypes": null,
-                              "id": 427,
-                              "name": "card_id",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 422,
-                              "src": "1632:7:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_uint256",
-                                "typeString": "uint256"
-                              }
-                            },
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "nodeType": "IndexAccess",
-                            "src": "1622:18:1",
-                            "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Gold_$332_storage",
-                              "typeString": "struct Membership.Gold storage ref"
-                            }
-                          },
-                          "id": 429,
-                          "isConstant": false,
-                          "isLValue": true,
-                          "isPure": false,
-                          "lValueRequested": false,
-                          "memberName": "price",
-                          "nodeType": "MemberAccess",
-                          "referencedDeclaration": 329,
-                          "src": "1622:24:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        },
-                        "nodeType": "BinaryOperation",
-                        "operator": ">",
-                        "rightExpression": {
-                          "argumentTypes": null,
-                          "hexValue": "30",
-                          "id": 430,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": true,
-                          "kind": "number",
-                          "lValueRequested": false,
-                          "nodeType": "Literal",
-                          "src": "1649:1:1",
-                          "subdenomination": null,
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_rational_0_by_1",
-                            "typeString": "int_const 0"
-                          },
-                          "value": "0"
-                        },
-                        "src": "1622:28:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_bool",
-                          "typeString": "bool"
-                        }
-                      }
-                    ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_bool",
-                          "typeString": "bool"
-                        }
-                      ],
-                      "id": 425,
-                      "name": "require",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        492,
-                        493
-                      ],
-                      "referencedDeclaration": 492,
-                      "src": "1613:7:1",
+                  "assignments": [
+                    426
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 426,
+                      "name": "_gold_card",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 474,
+                      "src": "1555:22:1",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
-                        "typeString": "function (bool) pure"
+                        "typeIdentifier": "t_struct$_Gold_$332_memory_ptr",
+                        "typeString": "struct Test.Gold"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 425,
+                        "name": "Gold",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 332,
+                        "src": "1555:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Gold_$332_storage_ptr",
+                          "typeString": "struct Test.Gold"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 430,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 427,
+                      "name": "gold_list",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 336,
+                      "src": "1580:9:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
+                        "typeString": "mapping(uint256 => struct Test.Gold storage ref)"
                       }
                     },
-                    "id": 432,
+                    "id": 429,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 428,
+                      "name": "card_id",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 422,
+                      "src": "1590:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
                     "isConstant": false,
-                    "isLValue": false,
+                    "isLValue": true,
                     "isPure": false,
-                    "kind": "functionCall",
                     "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "1613:39:1",
+                    "nodeType": "IndexAccess",
+                    "src": "1580:18:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$__$",
-                      "typeString": "tuple()"
+                      "typeIdentifier": "t_struct$_Gold_$332_storage",
+                      "typeString": "struct Test.Gold storage ref"
                     }
                   },
-                  "id": 433,
-                  "nodeType": "ExpressionStatement",
-                  "src": "1613:39:1"
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1555:43:1"
                 },
                 {
                   "expression": {
@@ -1498,7 +1439,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 441,
+                        "id": 435,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1507,76 +1448,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 435,
-                            "name": "msg",
+                            "id": 432,
+                            "name": "_gold_card",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 489,
-                            "src": "1733:3:1",
+                            "referencedDeclaration": 426,
+                            "src": "1669:10:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_magic_message",
-                              "typeString": "msg"
+                              "typeIdentifier": "t_struct$_Gold_$332_memory_ptr",
+                              "typeString": "struct Test.Gold memory"
                             }
                           },
-                          "id": 436,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": false,
-                          "lValueRequested": false,
-                          "memberName": "value",
-                          "nodeType": "MemberAccess",
-                          "referencedDeclaration": null,
-                          "src": "1733:9:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_uint256",
-                            "typeString": "uint256"
-                          }
-                        },
-                        "nodeType": "BinaryOperation",
-                        "operator": ">=",
-                        "rightExpression": {
-                          "argumentTypes": null,
-                          "expression": {
-                            "argumentTypes": null,
-                            "baseExpression": {
-                              "argumentTypes": null,
-                              "id": 437,
-                              "name": "gold_list",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 336,
-                              "src": "1746:9:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                                "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
-                              }
-                            },
-                            "id": 439,
-                            "indexExpression": {
-                              "argumentTypes": null,
-                              "id": 438,
-                              "name": "card_id",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 422,
-                              "src": "1756:7:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_uint256",
-                                "typeString": "uint256"
-                              }
-                            },
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "nodeType": "IndexAccess",
-                            "src": "1746:18:1",
-                            "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Gold_$332_storage",
-                              "typeString": "struct Membership.Gold storage ref"
-                            }
-                          },
-                          "id": 440,
+                          "id": 433,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -1584,13 +1467,33 @@
                           "memberName": "price",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 329,
-                          "src": "1746:24:1",
+                          "src": "1669:16:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "1733:37:1",
+                        "nodeType": "BinaryOperation",
+                        "operator": ">",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 434,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1688:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "src": "1669:20:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1604,21 +1507,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 434,
+                      "id": 431,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        492,
-                        493
+                        494,
+                        495
                       ],
-                      "referencedDeclaration": 492,
-                      "src": "1724:7:1",
+                      "referencedDeclaration": 494,
+                      "src": "1660:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 442,
+                    "id": 436,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1626,15 +1529,136 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1724:48:1",
+                    "src": "1660:31:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 443,
+                  "id": 437,
                   "nodeType": "ExpressionStatement",
-                  "src": "1724:48:1"
+                  "src": "1660:31:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 443,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 439,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 491,
+                            "src": "1772:3:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 440,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "value",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "1772:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 441,
+                            "name": "_gold_card",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 426,
+                            "src": "1785:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_Gold_$332_memory_ptr",
+                              "typeString": "struct Test.Gold memory"
+                            }
+                          },
+                          "id": 442,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "price",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 329,
+                          "src": "1785:16:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "src": "1772:29:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 438,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        494,
+                        495
+                      ],
+                      "referencedDeclaration": 494,
+                      "src": "1763:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 444,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1763:40:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 445,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1763:40:1"
                 },
                 {
                   "expression": {
@@ -1655,42 +1679,15 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "baseExpression": {
-                              "argumentTypes": null,
-                              "id": 445,
-                              "name": "gold_list",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 336,
-                              "src": "1853:9:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                                "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
-                              }
-                            },
                             "id": 447,
-                            "indexExpression": {
-                              "argumentTypes": null,
-                              "id": 446,
-                              "name": "card_id",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 422,
-                              "src": "1863:7:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_uint256",
-                                "typeString": "uint256"
-                              }
-                            },
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "nodeType": "IndexAccess",
-                            "src": "1853:18:1",
+                            "name": "_gold_card",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 426,
+                            "src": "1884:10:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Gold_$332_storage",
-                              "typeString": "struct Membership.Gold storage ref"
+                              "typeIdentifier": "t_struct$_Gold_$332_memory_ptr",
+                              "typeString": "struct Test.Gold memory"
                             }
                           },
                           "id": 448,
@@ -1701,7 +1698,7 @@
                           "memberName": "sell_approve",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 331,
-                          "src": "1853:31:1",
+                          "src": "1884:23:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1719,7 +1716,7 @@
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1888:4:1",
+                          "src": "1911:4:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -1727,7 +1724,7 @@
                           },
                           "value": "true"
                         },
-                        "src": "1853:39:1",
+                        "src": "1884:31:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1741,15 +1738,15 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 444,
+                      "id": 446,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        492,
-                        493
+                        494,
+                        495
                       ],
-                      "referencedDeclaration": 492,
-                      "src": "1844:7:1",
+                      "referencedDeclaration": 494,
+                      "src": "1875:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -1763,7 +1760,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1844:50:1",
+                    "src": "1875:42:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1771,7 +1768,73 @@
                   },
                   "id": 452,
                   "nodeType": "ExpressionStatement",
-                  "src": "1844:50:1"
+                  "src": "1875:42:1"
+                },
+                {
+                  "assignments": [
+                    454
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 454,
+                      "name": "_seller",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 474,
+                      "src": "1979:23:1",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      },
+                      "typeName": {
+                        "id": 453,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1979:15:1",
+                        "stateMutability": "payable",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 457,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 455,
+                      "name": "_gold_card",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 426,
+                      "src": "2005:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Gold_$332_memory_ptr",
+                        "typeString": "struct Test.Gold memory"
+                      }
+                    },
+                    "id": 456,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "owner",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 327,
+                    "src": "2005:16:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1979:42:1"
                 },
                 {
                   "expression": {
@@ -1781,18 +1844,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 460,
+                          "id": 462,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 489,
-                          "src": "1999:3:1",
+                          "referencedDeclaration": 491,
+                          "src": "2057:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 461,
+                        "id": 463,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1800,7 +1863,7 @@
                         "memberName": "value",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "1999:9:1",
+                        "src": "2057:9:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1819,55 +1882,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "expression": {
-                              "argumentTypes": null,
-                              "baseExpression": {
-                                "argumentTypes": null,
-                                "id": 454,
-                                "name": "gold_list",
-                                "nodeType": "Identifier",
-                                "overloadedDeclarations": [],
-                                "referencedDeclaration": 336,
-                                "src": "1964:9:1",
-                                "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                                  "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
-                                }
-                              },
-                              "id": 456,
-                              "indexExpression": {
-                                "argumentTypes": null,
-                                "id": 455,
-                                "name": "card_id",
-                                "nodeType": "Identifier",
-                                "overloadedDeclarations": [],
-                                "referencedDeclaration": 422,
-                                "src": "1974:7:1",
-                                "typeDescriptions": {
-                                  "typeIdentifier": "t_uint256",
-                                  "typeString": "uint256"
-                                }
-                              },
-                              "isConstant": false,
-                              "isLValue": true,
-                              "isPure": false,
-                              "lValueRequested": false,
-                              "nodeType": "IndexAccess",
-                              "src": "1964:18:1",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Gold_$332_storage",
-                                "typeString": "struct Membership.Gold storage ref"
-                              }
-                            },
-                            "id": 457,
-                            "isConstant": false,
-                            "isLValue": true,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "memberName": "owner",
-                            "nodeType": "MemberAccess",
-                            "referencedDeclaration": 327,
-                            "src": "1964:24:1",
+                            "id": 459,
+                            "name": "_seller",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 454,
+                            "src": "2039:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -1881,20 +1901,20 @@
                               "typeString": "address payable"
                             }
                           ],
-                          "id": 453,
+                          "id": 458,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "1956:7:1",
+                          "src": "2031:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": "address"
                         },
-                        "id": 458,
+                        "id": 460,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1902,13 +1922,13 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1956:33:1",
+                        "src": "2031:16:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 459,
+                      "id": 461,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1916,13 +1936,13 @@
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1956:42:1",
+                      "src": "2031:25:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 462,
+                    "id": 464,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1930,20 +1950,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1956:53:1",
+                    "src": "2031:36:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 463,
+                  "id": 465,
                   "nodeType": "ExpressionStatement",
-                  "src": "1956:53:1"
+                  "src": "2031:36:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 470,
+                    "id": 472,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1954,26 +1974,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 464,
+                          "id": 466,
                           "name": "gold_list",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 336,
-                          "src": "2082:9:1",
+                          "src": "2140:9:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Gold_$332_storage_$",
-                            "typeString": "mapping(uint256 => struct Membership.Gold storage ref)"
+                            "typeString": "mapping(uint256 => struct Test.Gold storage ref)"
                           }
                         },
-                        "id": 466,
+                        "id": 468,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 465,
+                          "id": 467,
                           "name": "card_id",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 422,
-                          "src": "2092:7:1",
+                          "src": "2150:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1984,13 +2004,13 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "2082:18:1",
+                        "src": "2140:18:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Gold_$332_storage",
-                          "typeString": "struct Membership.Gold storage ref"
+                          "typeString": "struct Test.Gold storage ref"
                         }
                       },
-                      "id": 467,
+                      "id": 469,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -1998,7 +2018,7 @@
                       "memberName": "owner",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 327,
-                      "src": "2082:24:1",
+                      "src": "2140:24:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
@@ -2010,18 +2030,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 468,
+                        "id": 470,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 489,
-                        "src": "2109:3:1",
+                        "referencedDeclaration": 491,
+                        "src": "2167:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
-                      "id": 469,
+                      "id": 471,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2029,26 +2049,26 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "2109:10:1",
+                      "src": "2167:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
                       }
                     },
-                    "src": "2082:37:1",
+                    "src": "2140:37:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
                       "typeString": "address payable"
                     }
                   },
-                  "id": 471,
+                  "id": 473,
                   "nodeType": "ExpressionStatement",
-                  "src": "2082:37:1"
+                  "src": "2140:37:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 473,
+            "id": 475,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -2063,8 +2083,8 @@
                   "id": 422,
                   "name": "card_id",
                   "nodeType": "VariableDeclaration",
-                  "scope": 473,
-                  "src": "1522:12:1",
+                  "scope": 475,
+                  "src": "1516:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2075,7 +2095,7 @@
                     "id": 421,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1522:4:1",
+                    "src": "1516:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2085,33 +2105,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1521:14:1"
+              "src": "1515:14:1"
             },
             "returnParameters": {
               "id": 424,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1551:0:1"
+              "src": "1545:0:1"
             },
-            "scope": 474,
-            "src": "1495:631:1",
+            "scope": 476,
+            "src": "1489:695:1",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 475,
-        "src": "66:2062:1"
+        "scope": 477,
+        "src": "66:2120:1"
       }
     ],
-    "src": "32:2096:1"
+    "src": "32:2154:1"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/home/oncemore/Blockchain Work/membership/contracts/Membership.sol",
+      "absolutePath": "/home/oncemore/Blockchain Work/membership/contracts/Test.sol",
       "exportedSymbols": {
-        "Membership": [
-          474
+        "Test": [
+          476
         ]
       }
     },
@@ -2144,17 +2164,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            474
+            476
           ],
-          "name": "Membership",
-          "scope": 475
+          "name": "Test",
+          "scope": 477
         },
         "children": [
           {
             "attributes": {
-              "canonicalName": "Membership.Gold",
+              "canonicalName": "Test.Gold",
               "name": "Gold",
-              "scope": 474,
+              "scope": 476,
               "visibility": "public"
             },
             "children": [
@@ -2178,12 +2198,12 @@
                     },
                     "id": 326,
                     "name": "ElementaryTypeName",
-                    "src": "270:15:1"
+                    "src": "264:15:1"
                   }
                 ],
                 "id": 327,
                 "name": "VariableDeclaration",
-                "src": "270:21:1"
+                "src": "264:21:1"
               },
               {
                 "attributes": {
@@ -2204,12 +2224,12 @@
                     },
                     "id": 328,
                     "name": "ElementaryTypeName",
-                    "src": "301:4:1"
+                    "src": "295:4:1"
                   }
                 ],
                 "id": 329,
                 "name": "VariableDeclaration",
-                "src": "301:10:1"
+                "src": "295:10:1"
               },
               {
                 "attributes": {
@@ -2230,33 +2250,33 @@
                     },
                     "id": 330,
                     "name": "ElementaryTypeName",
-                    "src": "321:4:1"
+                    "src": "315:4:1"
                   }
                 ],
                 "id": 331,
                 "name": "VariableDeclaration",
-                "src": "321:17:1"
+                "src": "315:17:1"
               }
             ],
             "id": 332,
             "name": "StructDefinition",
-            "src": "248:97:1"
+            "src": "242:97:1"
           },
           {
             "attributes": {
               "constant": false,
               "name": "gold_list",
-              "scope": 474,
+              "scope": 476,
               "stateVariable": true,
               "storageLocation": "default",
-              "type": "mapping(uint256 => struct Membership.Gold)",
+              "type": "mapping(uint256 => struct Test.Gold)",
               "value": null,
               "visibility": "public"
             },
             "children": [
               {
                 "attributes": {
-                  "type": "mapping(uint256 => struct Membership.Gold)"
+                  "type": "mapping(uint256 => struct Test.Gold)"
                 },
                 "children": [
                   {
@@ -2266,34 +2286,34 @@
                     },
                     "id": 333,
                     "name": "ElementaryTypeName",
-                    "src": "387:4:1"
+                    "src": "381:4:1"
                   },
                   {
                     "attributes": {
                       "contractScope": null,
                       "name": "Gold",
                       "referencedDeclaration": 332,
-                      "type": "struct Membership.Gold"
+                      "type": "struct Test.Gold"
                     },
                     "id": 334,
                     "name": "UserDefinedTypeName",
-                    "src": "395:4:1"
+                    "src": "389:4:1"
                   }
                 ],
                 "id": 335,
                 "name": "Mapping",
-                "src": "378:22:1"
+                "src": "372:22:1"
               }
             ],
             "id": 336,
             "name": "VariableDeclaration",
-            "src": "378:39:1"
+            "src": "372:39:1"
           },
           {
             "attributes": {
               "constant": false,
               "name": "gold_owner_count",
-              "scope": 474,
+              "scope": 476,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -2307,7 +2327,7 @@
                 },
                 "id": 337,
                 "name": "ElementaryTypeName",
-                "src": "454:4:1"
+                "src": "448:4:1"
               },
               {
                 "attributes": {
@@ -2324,18 +2344,18 @@
                 },
                 "id": 338,
                 "name": "Literal",
-                "src": "478:1:1"
+                "src": "472:1:1"
               }
             ],
             "id": 339,
             "name": "VariableDeclaration",
-            "src": "454:25:1"
+            "src": "448:25:1"
           },
           {
             "attributes": {
               "constant": true,
               "name": "gold_price",
-              "scope": 474,
+              "scope": 476,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -2349,7 +2369,7 @@
                 },
                 "id": 340,
                 "name": "ElementaryTypeName",
-                "src": "516:4:1"
+                "src": "510:4:1"
               },
               {
                 "attributes": {
@@ -2366,18 +2386,18 @@
                 },
                 "id": 341,
                 "name": "Literal",
-                "src": "543:4:1"
+                "src": "537:4:1"
               }
             ],
             "id": 342,
             "name": "VariableDeclaration",
-            "src": "516:31:1"
+            "src": "510:31:1"
           },
           {
             "attributes": {
               "constant": true,
               "name": "gold_max",
-              "scope": 474,
+              "scope": 476,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -2391,7 +2411,7 @@
                 },
                 "id": 343,
                 "name": "ElementaryTypeName",
-                "src": "581:4:1"
+                "src": "575:4:1"
               },
               {
                 "attributes": {
@@ -2408,12 +2428,12 @@
                 },
                 "id": 344,
                 "name": "Literal",
-                "src": "606:2:1"
+                "src": "600:2:1"
               }
             ],
             "id": 345,
             "name": "VariableDeclaration",
-            "src": "581:27:1"
+            "src": "575:27:1"
           },
           {
             "attributes": {
@@ -2425,7 +2445,7 @@
                 null
               ],
               "name": "invest",
-              "scope": 474,
+              "scope": 476,
               "stateMutability": "payable",
               "superFunction": null,
               "visibility": "external"
@@ -2440,7 +2460,7 @@
                 "children": [],
                 "id": 346,
                 "name": "ParameterList",
-                "src": "629:2:1"
+                "src": "623:2:1"
               },
               {
                 "attributes": {
@@ -2451,7 +2471,7 @@
                 "children": [],
                 "id": 347,
                 "name": "ParameterList",
-                "src": "649:0:1"
+                "src": "643:0:1"
               },
               {
                 "attributes": {
@@ -2462,12 +2482,12 @@
                 "children": [],
                 "id": 348,
                 "name": "Block",
-                "src": "649:16:1"
+                "src": "643:16:1"
               }
             ],
             "id": 349,
             "name": "FunctionDefinition",
-            "src": "614:51:1"
+            "src": "608:51:1"
           },
           {
             "attributes": {
@@ -2479,7 +2499,7 @@
                 null
               ],
               "name": "gold_buy",
-              "scope": 474,
+              "scope": 476,
               "stateMutability": "payable",
               "superFunction": null,
               "visibility": "public"
@@ -2494,7 +2514,7 @@
                 "children": [],
                 "id": 350,
                 "name": "ParameterList",
-                "src": "721:2:1"
+                "src": "715:2:1"
               },
               {
                 "attributes": {
@@ -2505,7 +2525,7 @@
                 "children": [],
                 "id": 351,
                 "name": "ParameterList",
-                "src": "739:0:1"
+                "src": "733:0:1"
               },
               {
                 "children": [
@@ -2535,16 +2555,16 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                492,
-                                493
+                                494,
+                                495
                               ],
-                              "referencedDeclaration": 492,
+                              "referencedDeclaration": 494,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
                             "id": 352,
                             "name": "Identifier",
-                            "src": "798:7:1"
+                            "src": "792:7:1"
                           },
                           {
                             "attributes": {
@@ -2573,7 +2593,7 @@
                                 },
                                 "id": 353,
                                 "name": "Identifier",
-                                "src": "807:16:1"
+                                "src": "801:16:1"
                               },
                               {
                                 "attributes": {
@@ -2587,22 +2607,22 @@
                                 },
                                 "id": 354,
                                 "name": "Identifier",
-                                "src": "826:8:1"
+                                "src": "820:8:1"
                               }
                             ],
                             "id": 355,
                             "name": "BinaryOperation",
-                            "src": "807:27:1"
+                            "src": "801:27:1"
                           }
                         ],
                         "id": 356,
                         "name": "FunctionCall",
-                        "src": "798:38:1"
+                        "src": "792:38:1"
                       }
                     ],
                     "id": 357,
                     "name": "ExpressionStatement",
-                    "src": "798:38:1"
+                    "src": "792:38:1"
                   },
                   {
                     "children": [
@@ -2630,16 +2650,16 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                492,
-                                493
+                                494,
+                                495
                               ],
-                              "referencedDeclaration": 492,
+                              "referencedDeclaration": 494,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
                             "id": 358,
                             "name": "Identifier",
-                            "src": "903:7:1"
+                            "src": "897:7:1"
                           },
                           {
                             "attributes": {
@@ -2674,18 +2694,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 489,
+                                      "referencedDeclaration": 491,
                                       "type": "msg",
                                       "value": "msg"
                                     },
                                     "id": 359,
                                     "name": "Identifier",
-                                    "src": "912:3:1"
+                                    "src": "906:3:1"
                                   }
                                 ],
                                 "id": 360,
                                 "name": "MemberAccess",
-                                "src": "912:9:1"
+                                "src": "906:9:1"
                               },
                               {
                                 "attributes": {
@@ -2699,22 +2719,22 @@
                                 },
                                 "id": 361,
                                 "name": "Identifier",
-                                "src": "925:10:1"
+                                "src": "919:10:1"
                               }
                             ],
                             "id": 362,
                             "name": "BinaryOperation",
-                            "src": "912:23:1"
+                            "src": "906:23:1"
                           }
                         ],
                         "id": 363,
                         "name": "FunctionCall",
-                        "src": "903:34:1"
+                        "src": "897:34:1"
                       }
                     ],
                     "id": 364,
                     "name": "ExpressionStatement",
-                    "src": "903:34:1"
+                    "src": "897:34:1"
                   },
                   {
                     "children": [
@@ -2726,7 +2746,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "operator": "=",
-                          "type": "struct Membership.Gold storage ref"
+                          "type": "struct Test.Gold storage ref"
                         },
                         "children": [
                           {
@@ -2736,7 +2756,7 @@
                               "isLValue": true,
                               "isPure": false,
                               "lValueRequested": true,
-                              "type": "struct Membership.Gold storage ref"
+                              "type": "struct Test.Gold storage ref"
                             },
                             "children": [
                               {
@@ -2746,12 +2766,12 @@
                                     null
                                   ],
                                   "referencedDeclaration": 336,
-                                  "type": "mapping(uint256 => struct Membership.Gold storage ref)",
+                                  "type": "mapping(uint256 => struct Test.Gold storage ref)",
                                   "value": "gold_list"
                                 },
                                 "id": 365,
                                 "name": "Identifier",
-                                "src": "982:9:1"
+                                "src": "976:9:1"
                               },
                               {
                                 "attributes": {
@@ -2765,12 +2785,12 @@
                                 },
                                 "id": 366,
                                 "name": "Identifier",
-                                "src": "992:16:1"
+                                "src": "986:16:1"
                               }
                             ],
                             "id": 367,
                             "name": "IndexAccess",
-                            "src": "982:27:1"
+                            "src": "976:27:1"
                           },
                           {
                             "attributes": {
@@ -2783,7 +2803,7 @@
                               "names": [
                                 null
                               ],
-                              "type": "struct Membership.Gold memory",
+                              "type": "struct Test.Gold memory",
                               "type_conversion": false
                             },
                             "children": [
@@ -2807,12 +2827,12 @@
                                     null
                                   ],
                                   "referencedDeclaration": 332,
-                                  "type": "type(struct Membership.Gold storage pointer)",
+                                  "type": "type(struct Test.Gold storage pointer)",
                                   "value": "Gold"
                                 },
                                 "id": 368,
                                 "name": "Identifier",
-                                "src": "1012:4:1"
+                                "src": "1006:4:1"
                               },
                               {
                                 "attributes": {
@@ -2832,18 +2852,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 489,
+                                      "referencedDeclaration": 491,
                                       "type": "msg",
                                       "value": "msg"
                                     },
                                     "id": 369,
                                     "name": "Identifier",
-                                    "src": "1017:3:1"
+                                    "src": "1011:3:1"
                                   }
                                 ],
                                 "id": 370,
                                 "name": "MemberAccess",
-                                "src": "1017:10:1"
+                                "src": "1011:10:1"
                               },
                               {
                                 "attributes": {
@@ -2860,7 +2880,7 @@
                                 },
                                 "id": 371,
                                 "name": "Literal",
-                                "src": "1029:1:1"
+                                "src": "1023:1:1"
                               },
                               {
                                 "attributes": {
@@ -2877,22 +2897,22 @@
                                 },
                                 "id": 372,
                                 "name": "Literal",
-                                "src": "1032:5:1"
+                                "src": "1026:5:1"
                               }
                             ],
                             "id": 373,
                             "name": "FunctionCall",
-                            "src": "1012:26:1"
+                            "src": "1006:26:1"
                           }
                         ],
                         "id": 374,
                         "name": "Assignment",
-                        "src": "982:56:1"
+                        "src": "976:56:1"
                       }
                     ],
                     "id": 375,
                     "name": "ExpressionStatement",
-                    "src": "982:56:1"
+                    "src": "976:56:1"
                   },
                   {
                     "children": [
@@ -2920,27 +2940,27 @@
                             },
                             "id": 376,
                             "name": "Identifier",
-                            "src": "1048:16:1"
+                            "src": "1042:16:1"
                           }
                         ],
                         "id": 377,
                         "name": "UnaryOperation",
-                        "src": "1048:18:1"
+                        "src": "1042:18:1"
                       }
                     ],
                     "id": 378,
                     "name": "ExpressionStatement",
-                    "src": "1048:18:1"
+                    "src": "1042:18:1"
                   }
                 ],
                 "id": 379,
                 "name": "Block",
-                "src": "739:334:1"
+                "src": "733:334:1"
               }
             ],
             "id": 380,
             "name": "FunctionDefinition",
-            "src": "704:369:1"
+            "src": "698:369:1"
           },
           {
             "attributes": {
@@ -2952,7 +2972,7 @@
                 null
               ],
               "name": "gold_sell",
-              "scope": 474,
+              "scope": 476,
               "stateMutability": "payable",
               "superFunction": null,
               "visibility": "public"
@@ -2979,17 +2999,17 @@
                         },
                         "id": 381,
                         "name": "ElementaryTypeName",
-                        "src": "1188:4:1"
+                        "src": "1182:4:1"
                       }
                     ],
                     "id": 382,
                     "name": "VariableDeclaration",
-                    "src": "1188:11:1"
+                    "src": "1182:11:1"
                   }
                 ],
                 "id": 383,
                 "name": "ParameterList",
-                "src": "1187:13:1"
+                "src": "1181:13:1"
               },
               {
                 "children": [
@@ -3012,17 +3032,17 @@
                         },
                         "id": 384,
                         "name": "ElementaryTypeName",
-                        "src": "1224:4:1"
+                        "src": "1218:4:1"
                       }
                     ],
                     "id": 385,
                     "name": "VariableDeclaration",
-                    "src": "1224:4:1"
+                    "src": "1218:4:1"
                   }
                 ],
                 "id": 386,
                 "name": "ParameterList",
-                "src": "1223:6:1"
+                "src": "1217:6:1"
               },
               {
                 "children": [
@@ -3054,12 +3074,12 @@
                                 },
                                 "id": 387,
                                 "name": "ElementaryTypeName",
-                                "src": "1245:4:1"
+                                "src": "1239:4:1"
                               }
                             ],
                             "id": 388,
                             "name": "VariableDeclaration",
-                            "src": "1245:6:1"
+                            "src": "1239:6:1"
                           },
                           {
                             "attributes": {
@@ -3076,12 +3096,12 @@
                             },
                             "id": 389,
                             "name": "Literal",
-                            "src": "1254:1:1"
+                            "src": "1248:1:1"
                           }
                         ],
                         "id": 390,
                         "name": "VariableDeclarationStatement",
-                        "src": "1245:10:1"
+                        "src": "1239:10:1"
                       },
                       {
                         "attributes": {
@@ -3110,7 +3130,7 @@
                             },
                             "id": 391,
                             "name": "Identifier",
-                            "src": "1258:1:1"
+                            "src": "1252:1:1"
                           },
                           {
                             "attributes": {
@@ -3124,12 +3144,12 @@
                             },
                             "id": 392,
                             "name": "Identifier",
-                            "src": "1262:16:1"
+                            "src": "1256:16:1"
                           }
                         ],
                         "id": 393,
                         "name": "BinaryOperation",
-                        "src": "1258:20:1"
+                        "src": "1252:20:1"
                       },
                       {
                         "children": [
@@ -3157,17 +3177,17 @@
                                 },
                                 "id": 394,
                                 "name": "Identifier",
-                                "src": "1281:1:1"
+                                "src": "1275:1:1"
                               }
                             ],
                             "id": 395,
                             "name": "UnaryOperation",
-                            "src": "1281:3:1"
+                            "src": "1275:3:1"
                           }
                         ],
                         "id": 396,
                         "name": "ExpressionStatement",
-                        "src": "1281:3:1"
+                        "src": "1275:3:1"
                       },
                       {
                         "children": [
@@ -3210,7 +3230,7 @@
                                           "isLValue": true,
                                           "isPure": false,
                                           "lValueRequested": false,
-                                          "type": "struct Membership.Gold storage ref"
+                                          "type": "struct Test.Gold storage ref"
                                         },
                                         "children": [
                                           {
@@ -3220,12 +3240,12 @@
                                                 null
                                               ],
                                               "referencedDeclaration": 336,
-                                              "type": "mapping(uint256 => struct Membership.Gold storage ref)",
+                                              "type": "mapping(uint256 => struct Test.Gold storage ref)",
                                               "value": "gold_list"
                                             },
                                             "id": 397,
                                             "name": "Identifier",
-                                            "src": "1304:9:1"
+                                            "src": "1298:9:1"
                                           },
                                           {
                                             "attributes": {
@@ -3239,17 +3259,17 @@
                                             },
                                             "id": 398,
                                             "name": "Identifier",
-                                            "src": "1314:1:1"
+                                            "src": "1308:1:1"
                                           }
                                         ],
                                         "id": 399,
                                         "name": "IndexAccess",
-                                        "src": "1304:12:1"
+                                        "src": "1298:12:1"
                                       }
                                     ],
                                     "id": 400,
                                     "name": "MemberAccess",
-                                    "src": "1304:18:1"
+                                    "src": "1298:18:1"
                                   },
                                   {
                                     "attributes": {
@@ -3269,23 +3289,23 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 489,
+                                          "referencedDeclaration": 491,
                                           "type": "msg",
                                           "value": "msg"
                                         },
                                         "id": 401,
                                         "name": "Identifier",
-                                        "src": "1326:3:1"
+                                        "src": "1320:3:1"
                                       }
                                     ],
                                     "id": 402,
                                     "name": "MemberAccess",
-                                    "src": "1326:10:1"
+                                    "src": "1320:10:1"
                                   }
                                 ],
                                 "id": 403,
                                 "name": "BinaryOperation",
-                                "src": "1304:32:1"
+                                "src": "1298:32:1"
                               },
                               {
                                 "children": [
@@ -3321,7 +3341,7 @@
                                                   "isLValue": true,
                                                   "isPure": false,
                                                   "lValueRequested": false,
-                                                  "type": "struct Membership.Gold storage ref"
+                                                  "type": "struct Test.Gold storage ref"
                                                 },
                                                 "children": [
                                                   {
@@ -3331,12 +3351,12 @@
                                                         null
                                                       ],
                                                       "referencedDeclaration": 336,
-                                                      "type": "mapping(uint256 => struct Membership.Gold storage ref)",
+                                                      "type": "mapping(uint256 => struct Test.Gold storage ref)",
                                                       "value": "gold_list"
                                                     },
                                                     "id": 404,
                                                     "name": "Identifier",
-                                                    "src": "1356:9:1"
+                                                    "src": "1350:9:1"
                                                   },
                                                   {
                                                     "attributes": {
@@ -3350,17 +3370,17 @@
                                                     },
                                                     "id": 405,
                                                     "name": "Identifier",
-                                                    "src": "1366:1:1"
+                                                    "src": "1360:1:1"
                                                   }
                                                 ],
                                                 "id": 406,
                                                 "name": "IndexAccess",
-                                                "src": "1356:12:1"
+                                                "src": "1350:12:1"
                                               }
                                             ],
                                             "id": 407,
                                             "name": "MemberAccess",
-                                            "src": "1356:18:1"
+                                            "src": "1350:18:1"
                                           },
                                           {
                                             "attributes": {
@@ -3374,17 +3394,17 @@
                                             },
                                             "id": 408,
                                             "name": "Identifier",
-                                            "src": "1377:6:1"
+                                            "src": "1371:6:1"
                                           }
                                         ],
                                         "id": 409,
                                         "name": "Assignment",
-                                        "src": "1356:27:1"
+                                        "src": "1350:27:1"
                                       }
                                     ],
                                     "id": 410,
                                     "name": "ExpressionStatement",
-                                    "src": "1356:27:1"
+                                    "src": "1350:27:1"
                                   },
                                   {
                                     "attributes": {
@@ -3406,32 +3426,32 @@
                                         },
                                         "id": 411,
                                         "name": "Literal",
-                                        "src": "1408:4:1"
+                                        "src": "1402:4:1"
                                       }
                                     ],
                                     "id": 412,
                                     "name": "Return",
-                                    "src": "1401:11:1"
+                                    "src": "1395:11:1"
                                   }
                                 ],
                                 "id": 413,
                                 "name": "Block",
-                                "src": "1338:89:1"
+                                "src": "1332:89:1"
                               }
                             ],
                             "id": 414,
                             "name": "IfStatement",
-                            "src": "1300:127:1"
+                            "src": "1294:127:1"
                           }
                         ],
                         "id": 415,
                         "name": "Block",
-                        "src": "1286:151:1"
+                        "src": "1280:151:1"
                       }
                     ],
                     "id": 416,
                     "name": "ForStatement",
-                    "src": "1240:197:1"
+                    "src": "1234:197:1"
                   },
                   {
                     "attributes": {
@@ -3453,22 +3473,22 @@
                         },
                         "id": 417,
                         "name": "Literal",
-                        "src": "1453:5:1"
+                        "src": "1447:5:1"
                       }
                     ],
                     "id": 418,
                     "name": "Return",
-                    "src": "1446:12:1"
+                    "src": "1440:12:1"
                   }
                 ],
                 "id": 419,
                 "name": "Block",
-                "src": "1230:235:1"
+                "src": "1224:235:1"
               }
             ],
             "id": 420,
             "name": "FunctionDefinition",
-            "src": "1169:296:1"
+            "src": "1163:296:1"
           },
           {
             "attributes": {
@@ -3480,7 +3500,7 @@
                 null
               ],
               "name": "gold_request_buy",
-              "scope": 474,
+              "scope": 476,
               "stateMutability": "payable",
               "superFunction": null,
               "visibility": "public"
@@ -3492,7 +3512,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "card_id",
-                      "scope": 473,
+                      "scope": 475,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -3507,17 +3527,17 @@
                         },
                         "id": 421,
                         "name": "ElementaryTypeName",
-                        "src": "1522:4:1"
+                        "src": "1516:4:1"
                       }
                     ],
                     "id": 422,
                     "name": "VariableDeclaration",
-                    "src": "1522:12:1"
+                    "src": "1516:12:1"
                   }
                 ],
                 "id": 423,
                 "name": "ParameterList",
-                "src": "1521:14:1"
+                "src": "1515:14:1"
               },
               {
                 "attributes": {
@@ -3528,10 +3548,93 @@
                 "children": [],
                 "id": 424,
                 "name": "ParameterList",
-                "src": "1551:0:1"
+                "src": "1545:0:1"
               },
               {
                 "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        426
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "_gold_card",
+                          "scope": 474,
+                          "stateVariable": false,
+                          "storageLocation": "memory",
+                          "type": "struct Test.Gold",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "Gold",
+                              "referencedDeclaration": 332,
+                              "type": "struct Test.Gold"
+                            },
+                            "id": 425,
+                            "name": "UserDefinedTypeName",
+                            "src": "1555:4:1"
+                          }
+                        ],
+                        "id": 426,
+                        "name": "VariableDeclaration",
+                        "src": "1555:22:1"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "struct Test.Gold storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 336,
+                              "type": "mapping(uint256 => struct Test.Gold storage ref)",
+                              "value": "gold_list"
+                            },
+                            "id": 427,
+                            "name": "Identifier",
+                            "src": "1580:9:1"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 422,
+                              "type": "uint256",
+                              "value": "card_id"
+                            },
+                            "id": 428,
+                            "name": "Identifier",
+                            "src": "1590:7:1"
+                          }
+                        ],
+                        "id": 429,
+                        "name": "IndexAccess",
+                        "src": "1580:18:1"
+                      }
+                    ],
+                    "id": 430,
+                    "name": "VariableDeclarationStatement",
+                    "src": "1555:43:1"
+                  },
                   {
                     "children": [
                       {
@@ -3558,16 +3661,16 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                492,
-                                493
+                                494,
+                                495
                               ],
-                              "referencedDeclaration": 492,
+                              "referencedDeclaration": 494,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 425,
+                            "id": 431,
                             "name": "Identifier",
-                            "src": "1613:7:1"
+                            "src": "1660:7:1"
                           },
                           {
                             "attributes": {
@@ -3599,50 +3702,21 @@
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "isConstant": false,
-                                      "isLValue": true,
-                                      "isPure": false,
-                                      "lValueRequested": false,
-                                      "type": "struct Membership.Gold storage ref"
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 426,
+                                      "type": "struct Test.Gold memory",
+                                      "value": "_gold_card"
                                     },
-                                    "children": [
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 336,
-                                          "type": "mapping(uint256 => struct Membership.Gold storage ref)",
-                                          "value": "gold_list"
-                                        },
-                                        "id": 426,
-                                        "name": "Identifier",
-                                        "src": "1622:9:1"
-                                      },
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 422,
-                                          "type": "uint256",
-                                          "value": "card_id"
-                                        },
-                                        "id": 427,
-                                        "name": "Identifier",
-                                        "src": "1632:7:1"
-                                      }
-                                    ],
-                                    "id": 428,
-                                    "name": "IndexAccess",
-                                    "src": "1622:18:1"
+                                    "id": 432,
+                                    "name": "Identifier",
+                                    "src": "1669:10:1"
                                   }
                                 ],
-                                "id": 429,
+                                "id": 433,
                                 "name": "MemberAccess",
-                                "src": "1622:24:1"
+                                "src": "1669:16:1"
                               },
                               {
                                 "attributes": {
@@ -3657,24 +3731,24 @@
                                   "type": "int_const 0",
                                   "value": "0"
                                 },
-                                "id": 430,
+                                "id": 434,
                                 "name": "Literal",
-                                "src": "1649:1:1"
+                                "src": "1688:1:1"
                               }
                             ],
-                            "id": 431,
+                            "id": 435,
                             "name": "BinaryOperation",
-                            "src": "1622:28:1"
+                            "src": "1669:20:1"
                           }
                         ],
-                        "id": 432,
+                        "id": 436,
                         "name": "FunctionCall",
-                        "src": "1613:39:1"
+                        "src": "1660:31:1"
                       }
                     ],
-                    "id": 433,
+                    "id": 437,
                     "name": "ExpressionStatement",
-                    "src": "1613:39:1"
+                    "src": "1660:31:1"
                   },
                   {
                     "children": [
@@ -3702,16 +3776,16 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                492,
-                                493
+                                494,
+                                495
                               ],
-                              "referencedDeclaration": 492,
+                              "referencedDeclaration": 494,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 434,
+                            "id": 438,
                             "name": "Identifier",
-                            "src": "1724:7:1"
+                            "src": "1763:7:1"
                           },
                           {
                             "attributes": {
@@ -3746,18 +3820,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 489,
+                                      "referencedDeclaration": 491,
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 435,
+                                    "id": 439,
                                     "name": "Identifier",
-                                    "src": "1733:3:1"
+                                    "src": "1772:3:1"
                                   }
                                 ],
-                                "id": 436,
+                                "id": 440,
                                 "name": "MemberAccess",
-                                "src": "1733:9:1"
+                                "src": "1772:9:1"
                               },
                               {
                                 "attributes": {
@@ -3774,65 +3848,36 @@
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "isConstant": false,
-                                      "isLValue": true,
-                                      "isPure": false,
-                                      "lValueRequested": false,
-                                      "type": "struct Membership.Gold storage ref"
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 426,
+                                      "type": "struct Test.Gold memory",
+                                      "value": "_gold_card"
                                     },
-                                    "children": [
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 336,
-                                          "type": "mapping(uint256 => struct Membership.Gold storage ref)",
-                                          "value": "gold_list"
-                                        },
-                                        "id": 437,
-                                        "name": "Identifier",
-                                        "src": "1746:9:1"
-                                      },
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 422,
-                                          "type": "uint256",
-                                          "value": "card_id"
-                                        },
-                                        "id": 438,
-                                        "name": "Identifier",
-                                        "src": "1756:7:1"
-                                      }
-                                    ],
-                                    "id": 439,
-                                    "name": "IndexAccess",
-                                    "src": "1746:18:1"
+                                    "id": 441,
+                                    "name": "Identifier",
+                                    "src": "1785:10:1"
                                   }
                                 ],
-                                "id": 440,
+                                "id": 442,
                                 "name": "MemberAccess",
-                                "src": "1746:24:1"
+                                "src": "1785:16:1"
                               }
                             ],
-                            "id": 441,
+                            "id": 443,
                             "name": "BinaryOperation",
-                            "src": "1733:37:1"
+                            "src": "1772:29:1"
                           }
                         ],
-                        "id": 442,
+                        "id": 444,
                         "name": "FunctionCall",
-                        "src": "1724:48:1"
+                        "src": "1763:40:1"
                       }
                     ],
-                    "id": 443,
+                    "id": 445,
                     "name": "ExpressionStatement",
-                    "src": "1724:48:1"
+                    "src": "1763:40:1"
                   },
                   {
                     "children": [
@@ -3860,16 +3905,16 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                492,
-                                493
+                                494,
+                                495
                               ],
-                              "referencedDeclaration": 492,
+                              "referencedDeclaration": 494,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 444,
+                            "id": 446,
                             "name": "Identifier",
-                            "src": "1844:7:1"
+                            "src": "1875:7:1"
                           },
                           {
                             "attributes": {
@@ -3901,50 +3946,21 @@
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "isConstant": false,
-                                      "isLValue": true,
-                                      "isPure": false,
-                                      "lValueRequested": false,
-                                      "type": "struct Membership.Gold storage ref"
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 426,
+                                      "type": "struct Test.Gold memory",
+                                      "value": "_gold_card"
                                     },
-                                    "children": [
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 336,
-                                          "type": "mapping(uint256 => struct Membership.Gold storage ref)",
-                                          "value": "gold_list"
-                                        },
-                                        "id": 445,
-                                        "name": "Identifier",
-                                        "src": "1853:9:1"
-                                      },
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 422,
-                                          "type": "uint256",
-                                          "value": "card_id"
-                                        },
-                                        "id": 446,
-                                        "name": "Identifier",
-                                        "src": "1863:7:1"
-                                      }
-                                    ],
                                     "id": 447,
-                                    "name": "IndexAccess",
-                                    "src": "1853:18:1"
+                                    "name": "Identifier",
+                                    "src": "1884:10:1"
                                   }
                                 ],
                                 "id": 448,
                                 "name": "MemberAccess",
-                                "src": "1853:31:1"
+                                "src": "1884:23:1"
                               },
                               {
                                 "attributes": {
@@ -3961,22 +3977,92 @@
                                 },
                                 "id": 449,
                                 "name": "Literal",
-                                "src": "1888:4:1"
+                                "src": "1911:4:1"
                               }
                             ],
                             "id": 450,
                             "name": "BinaryOperation",
-                            "src": "1853:39:1"
+                            "src": "1884:31:1"
                           }
                         ],
                         "id": 451,
                         "name": "FunctionCall",
-                        "src": "1844:50:1"
+                        "src": "1875:42:1"
                       }
                     ],
                     "id": 452,
                     "name": "ExpressionStatement",
-                    "src": "1844:50:1"
+                    "src": "1875:42:1"
+                  },
+                  {
+                    "attributes": {
+                      "assignments": [
+                        454
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "_seller",
+                          "scope": 474,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "address payable",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "name": "address",
+                              "stateMutability": "payable",
+                              "type": "address payable"
+                            },
+                            "id": 453,
+                            "name": "ElementaryTypeName",
+                            "src": "1979:15:1"
+                          }
+                        ],
+                        "id": 454,
+                        "name": "VariableDeclaration",
+                        "src": "1979:23:1"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "owner",
+                          "referencedDeclaration": 327,
+                          "type": "address payable"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 426,
+                              "type": "struct Test.Gold memory",
+                              "value": "_gold_card"
+                            },
+                            "id": 455,
+                            "name": "Identifier",
+                            "src": "2005:10:1"
+                          }
+                        ],
+                        "id": 456,
+                        "name": "MemberAccess",
+                        "src": "2005:16:1"
+                      }
+                    ],
+                    "id": 457,
+                    "name": "VariableDeclarationStatement",
+                    "src": "1979:42:1"
                   },
                   {
                     "children": [
@@ -4042,79 +4128,33 @@
                                       "type": "type(address)",
                                       "value": "address"
                                     },
-                                    "id": 453,
+                                    "id": 458,
                                     "name": "ElementaryTypeNameExpression",
-                                    "src": "1956:7:1"
+                                    "src": "2031:7:1"
                                   },
                                   {
                                     "attributes": {
                                       "argumentTypes": null,
-                                      "isConstant": false,
-                                      "isLValue": true,
-                                      "isPure": false,
-                                      "lValueRequested": false,
-                                      "member_name": "owner",
-                                      "referencedDeclaration": 327,
-                                      "type": "address payable"
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 454,
+                                      "type": "address payable",
+                                      "value": "_seller"
                                     },
-                                    "children": [
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "isConstant": false,
-                                          "isLValue": true,
-                                          "isPure": false,
-                                          "lValueRequested": false,
-                                          "type": "struct Membership.Gold storage ref"
-                                        },
-                                        "children": [
-                                          {
-                                            "attributes": {
-                                              "argumentTypes": null,
-                                              "overloadedDeclarations": [
-                                                null
-                                              ],
-                                              "referencedDeclaration": 336,
-                                              "type": "mapping(uint256 => struct Membership.Gold storage ref)",
-                                              "value": "gold_list"
-                                            },
-                                            "id": 454,
-                                            "name": "Identifier",
-                                            "src": "1964:9:1"
-                                          },
-                                          {
-                                            "attributes": {
-                                              "argumentTypes": null,
-                                              "overloadedDeclarations": [
-                                                null
-                                              ],
-                                              "referencedDeclaration": 422,
-                                              "type": "uint256",
-                                              "value": "card_id"
-                                            },
-                                            "id": 455,
-                                            "name": "Identifier",
-                                            "src": "1974:7:1"
-                                          }
-                                        ],
-                                        "id": 456,
-                                        "name": "IndexAccess",
-                                        "src": "1964:18:1"
-                                      }
-                                    ],
-                                    "id": 457,
-                                    "name": "MemberAccess",
-                                    "src": "1964:24:1"
+                                    "id": 459,
+                                    "name": "Identifier",
+                                    "src": "2039:7:1"
                                   }
                                 ],
-                                "id": 458,
+                                "id": 460,
                                 "name": "FunctionCall",
-                                "src": "1956:33:1"
+                                "src": "2031:16:1"
                               }
                             ],
-                            "id": 459,
+                            "id": 461,
                             "name": "MemberAccess",
-                            "src": "1956:42:1"
+                            "src": "2031:25:1"
                           },
                           {
                             "attributes": {
@@ -4134,28 +4174,28 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 489,
+                                  "referencedDeclaration": 491,
                                   "type": "msg",
                                   "value": "msg"
                                 },
-                                "id": 460,
+                                "id": 462,
                                 "name": "Identifier",
-                                "src": "1999:3:1"
+                                "src": "2057:3:1"
                               }
                             ],
-                            "id": 461,
+                            "id": 463,
                             "name": "MemberAccess",
-                            "src": "1999:9:1"
+                            "src": "2057:9:1"
                           }
                         ],
-                        "id": 462,
+                        "id": 464,
                         "name": "FunctionCall",
-                        "src": "1956:53:1"
+                        "src": "2031:36:1"
                       }
                     ],
-                    "id": 463,
+                    "id": 465,
                     "name": "ExpressionStatement",
-                    "src": "1956:53:1"
+                    "src": "2031:36:1"
                   },
                   {
                     "children": [
@@ -4189,7 +4229,7 @@
                                   "isLValue": true,
                                   "isPure": false,
                                   "lValueRequested": false,
-                                  "type": "struct Membership.Gold storage ref"
+                                  "type": "struct Test.Gold storage ref"
                                 },
                                 "children": [
                                   {
@@ -4199,12 +4239,12 @@
                                         null
                                       ],
                                       "referencedDeclaration": 336,
-                                      "type": "mapping(uint256 => struct Membership.Gold storage ref)",
+                                      "type": "mapping(uint256 => struct Test.Gold storage ref)",
                                       "value": "gold_list"
                                     },
-                                    "id": 464,
+                                    "id": 466,
                                     "name": "Identifier",
-                                    "src": "2082:9:1"
+                                    "src": "2140:9:1"
                                   },
                                   {
                                     "attributes": {
@@ -4216,19 +4256,19 @@
                                       "type": "uint256",
                                       "value": "card_id"
                                     },
-                                    "id": 465,
+                                    "id": 467,
                                     "name": "Identifier",
-                                    "src": "2092:7:1"
+                                    "src": "2150:7:1"
                                   }
                                 ],
-                                "id": 466,
+                                "id": 468,
                                 "name": "IndexAccess",
-                                "src": "2082:18:1"
+                                "src": "2140:18:1"
                               }
                             ],
-                            "id": 467,
+                            "id": 469,
                             "name": "MemberAccess",
-                            "src": "2082:24:1"
+                            "src": "2140:24:1"
                           },
                           {
                             "attributes": {
@@ -4248,64 +4288,56 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 489,
+                                  "referencedDeclaration": 491,
                                   "type": "msg",
                                   "value": "msg"
                                 },
-                                "id": 468,
+                                "id": 470,
                                 "name": "Identifier",
-                                "src": "2109:3:1"
+                                "src": "2167:3:1"
                               }
                             ],
-                            "id": 469,
+                            "id": 471,
                             "name": "MemberAccess",
-                            "src": "2109:10:1"
+                            "src": "2167:10:1"
                           }
                         ],
-                        "id": 470,
+                        "id": 472,
                         "name": "Assignment",
-                        "src": "2082:37:1"
+                        "src": "2140:37:1"
                       }
                     ],
-                    "id": 471,
+                    "id": 473,
                     "name": "ExpressionStatement",
-                    "src": "2082:37:1"
+                    "src": "2140:37:1"
                   }
                 ],
-                "id": 472,
+                "id": 474,
                 "name": "Block",
-                "src": "1551:575:1"
+                "src": "1545:639:1"
               }
             ],
-            "id": 473,
+            "id": 475,
             "name": "FunctionDefinition",
-            "src": "1495:631:1"
+            "src": "1489:695:1"
           }
         ],
-        "id": 474,
+        "id": 476,
         "name": "ContractDefinition",
-        "src": "66:2062:1"
+        "src": "66:2120:1"
       }
     ],
-    "id": 475,
+    "id": 477,
     "name": "SourceUnit",
-    "src": "32:2096:1"
+    "src": "32:2154:1"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {
-    "5777": {
-      "events": {},
-      "links": {},
-      "address": "0xAFFdc18D4e95CAf0dE52172924aC9b3168e976Bc",
-      "transactionHash": "0x783e5247143ef0ca5e00134321038096401576b96f8433211836bae2c5c0ad29"
-    }
-  },
+  "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-30T21:55:08.282Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-04-30T21:41:27.763Z",
   "devdoc": {
     "methods": {}
   },

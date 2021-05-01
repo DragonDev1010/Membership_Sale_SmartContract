@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for contracts/Membership.old.sol</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">all files</a> / <a href="index.html">contracts/</a> Membership.old.sol
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/24</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/34</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// SPDX-License-Identifier: MIT
+pragma solidity &gt;=0.4.22 &lt;0.9.0;
+&nbsp;
+contract Membership_old {
+    uint constant gold_max = 15;
+    address[] public gold_owners;
+    uint constant gold_price = 10000000000000000000;
+&nbsp;
+    // define silver card
+    uint constant silver_max = 150;
+    address[] public silver_owners;
+    uint constant silver_price = 1000000000000000000;
+&nbsp;
+    // define bronze card
+    uint constant bronze_max = 1500;
+    address[] public bronze_owners;
+    uint constant bronze_price = 250000000000000000;
+    // smart contract balance
+    uint public total_balance = address(this).balance;
+    // function implicitly deposit Ether to this smart contract
+<span class="fstat-no" title="function not covered" >    function invest() external payable {</span>
+        
+    }
+<span class="fstat-no" title="function not covered" >    function balanceOf() external view returns(uint) {</span>
+<span class="cstat-no" title="statement not covered" >        return address(this).balance;</span>
+    }
+    // function purchase original gold card
+<span class="fstat-no" title="function not covered" >    function purchase_gold() public payable {</span>
+<span class="cstat-no" title="statement not covered" >        uint sold_gold = gold_owners.length;</span>
+<span class="cstat-no" title="statement not covered" >        uint remaining_gold = gold_max - sold_gold;</span>
+        // require gold card is available to purchase
+<span class="cstat-no" title="statement not covered" >        require(remaining_gold &gt; 0)</span>;
+        // require transaction has enough balance
+<span class="cstat-no" title="statement not covered" >        require(msg.value &gt;= gold_price)</span>;
+        // // register purchaseOwner into the gold owner list
+<span class="cstat-no" title="statement not covered" >        gold_owners.push(msg.sender)</span>;
+        
+    }
+    // function buy gold card from other owner
+<span class="fstat-no" title="function not covered" >    function buy_gold(address payable _seller) public payable {</span>
+        // require transaction has enough eth
+<span class="cstat-no" title="statement not covered" >        require(msg.value &gt;= gold_price)</span>;
+        // transfer ether from new owner to old owner
+<span class="cstat-no" title="statement not covered" >        _seller.transfer(msg.value)</span>;
+        // replace the new owner with old owner
+<span class="cstat-no" title="statement not covered" >        for (uint i = 0 ; i &lt; gold_owners.length ; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            if (gold_owners[i] == _seller) {</span>
+<span class="cstat-no" title="statement not covered" >                gold_owners[i] = msg.sender</span>;
+            }
+        }
+    }
+    // function get sold gold card amount
+<span class="fstat-no" title="function not covered" >    function get_gold_owner_amount() public view returns(uint) {</span>
+<span class="cstat-no" title="statement not covered" >        return gold_owners.length;</span>
+    }
+&nbsp;
+    // function purchase original silver card
+<span class="fstat-no" title="function not covered" >    function purchase_silver() public payable{</span>
+<span class="cstat-no" title="statement not covered" >        uint sold_silver = silver_owners.length;</span>
+<span class="cstat-no" title="statement not covered" >        uint remaining_silver = silver_max - sold_silver;</span>
+        // require silver card is available to purchase
+<span class="cstat-no" title="statement not covered" >        require(remaining_silver &gt; 0)</span>;
+        // require transaction has enough balance
+<span class="cstat-no" title="statement not covered" >        require(msg.value &gt;= silver_price)</span>;
+        // register purchaseOwner into the silver owner list
+<span class="cstat-no" title="statement not covered" >        silver_owners.push(msg.sender)</span>;
+        
+    }
+    // function buy silver card from other owner
+<span class="fstat-no" title="function not covered" >    function buy_silver(address payable _seller) public payable {</span>
+        // require transaction has enough eth
+<span class="cstat-no" title="statement not covered" >        require(msg.value &gt;= silver_price)</span>;
+        // transfer ether from new owner to old owner
+<span class="cstat-no" title="statement not covered" >        _seller.transfer(msg.value)</span>;
+        // replace the new owner with old owner
+<span class="cstat-no" title="statement not covered" >        for (uint i = 0 ; i &lt; silver_owners.length ; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            if (silver_owners[i] == _seller) {</span>
+<span class="cstat-no" title="statement not covered" >                silver_owners[i] = msg.sender</span>;
+            }
+        }
+    }
+    // function get sold silver card amount
+<span class="fstat-no" title="function not covered" >    function get_silver_owner_amount() public view returns(uint) {</span>
+<span class="cstat-no" title="statement not covered" >        return silver_owners.length;</span>
+    }
+&nbsp;
+    // function purchase original bronze card
+<span class="fstat-no" title="function not covered" >    function purchase_bronze() public payable{</span>
+<span class="cstat-no" title="statement not covered" >        uint sold_bronze = bronze_owners.length;</span>
+<span class="cstat-no" title="statement not covered" >        uint remaining_bronze = bronze_max - sold_bronze;</span>
+        // require bronze card is available to purchase
+<span class="cstat-no" title="statement not covered" >        require(remaining_bronze &gt; 0)</span>;
+        // require transaction has enough balance
+<span class="cstat-no" title="statement not covered" >        require(msg.value &gt;= bronze_price)</span>;
+        // register purchaseOwner into the bronze owner list
+<span class="cstat-no" title="statement not covered" >        bronze_owners.push(msg.sender)</span>;
+        
+    }
+    // function buy bronze card from other owner
+<span class="fstat-no" title="function not covered" >    function buy_bronze(address payable _seller) public payable {</span>
+        // require transaction has enough eth
+<span class="cstat-no" title="statement not covered" >        require(msg.value &gt;= bronze_price)</span>;
+        // transfer ether from new owner to old owner
+<span class="cstat-no" title="statement not covered" >        _seller.transfer(msg.value)</span>;
+        // replace the new owner with old owner
+<span class="cstat-no" title="statement not covered" >        for (uint i = 0 ; i &lt; bronze_owners.length ; i++) {</span>
+<span class="cstat-no" title="statement not covered" >            if (bronze_owners[i] == _seller) {</span>
+<span class="cstat-no" title="statement not covered" >                bronze_owners[i] = msg.sender</span>;
+            }
+        }
+    }
+    // function get sold bronze card amount
+<span class="fstat-no" title="function not covered" >    function get_bronze_owner_amount() public view returns(uint) {</span>
+<span class="cstat-no" title="statement not covered" >        return bronze_owners.length;</span>
+    }
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Apr 30 2021 19:05:44 GMT-0700 (Pacific Daylight Time)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>
