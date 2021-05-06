@@ -1,10 +1,15 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.21 <0.6.0;
+pragma solidity >=0.4.21 <0.7.0;
 
-contract Membership {
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract Membership is Ownable{
     // gold card owner : {address: owner, uint: price}
     // // if price == 0, owner is not going to sell 
     // // if price != 0, owner is going to sell
+    receive() payable external {
+    }
+
     struct Gold {
         address payable owner;
         uint price;
@@ -150,7 +155,7 @@ contract Membership {
         // require : check if card owner approves the request
         require( gold_list[card_id].sell_approve == true );
         // transfer ETH from new owner to old owner
-        address(gold_list[card_id].owner).transfer(msg.value);
+        gold_list[card_id].owner.transfer(msg.value);
         // move the card ownership from old owner to new owner
         gold_list[card_id].owner = msg.sender;
         gold_list[card_id].sell_approve = false;
@@ -203,7 +208,7 @@ contract Membership {
         // require : check if card owner approves the request
         require( silver_list[card_id].sell_approve == true );
         // transfer ETH from new owner to old owner
-        address(silver_list[card_id].owner).transfer(msg.value);
+        silver_list[card_id].owner.transfer(msg.value);
         // move the card ownership from old owner to new owner
         silver_list[card_id].owner = msg.sender;
         silver_list[card_id].sell_approve = false;
@@ -230,7 +235,7 @@ contract Membership {
             if (bronze_list[i].owner == msg.sender) {
                 bronze_list[i].price = _price;
                 emit BronzeSell(msg.sender, bronze_list[i].price, bronze_list[i].sell_approve);
-                return true;
+                return true;    
             }
         }
         emit BronzeSell(msg.sender, 0, false);
@@ -256,10 +261,14 @@ contract Membership {
         // require : check if card owner approves the request
         require( bronze_list[card_id].sell_approve == true );
         // transfer ETH from new owner to old owner
-        address(bronze_list[card_id].owner).transfer(msg.value);
+        bronze_list[card_id].owner.transfer(msg.value);
         // move the card ownership from old owner to new owner
         bronze_list[card_id].owner = msg.sender;
         bronze_list[card_id].sell_approve = false;
         emit BronzeBought(msg.sender, bronze_list[card_id].price, bronze_list[card_id].sell_approve);
     }    
+
+    function reclaimETH() external onlyOwner{
+        msg.sender.transfer(address(this).balance);
+    }
 }
