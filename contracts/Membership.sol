@@ -20,7 +20,7 @@ contract Membership is Ownable{
     // gold card owner account
     uint public gold_owner_count = 0;
     // gold card default price
-    uint constant gold_price = 1e19;
+    uint constant gold_price = 15e18;
     // gold card max amount
     uint constant gold_max = 15;
     event GoldPurchased (
@@ -116,7 +116,7 @@ contract Membership is Ownable{
         // require : original card is remaining.
         require( gold_owner_count < gold_max );
         // require : ETH is greater than gold card price
-        require( msg.value >= gold_price );
+        require( msg.value == gold_price );
         // register new gold owner
         gold_list[gold_owner_count] = Gold(msg.sender, 0, false);
         gold_owner_count++;
@@ -169,7 +169,7 @@ contract Membership is Ownable{
         // require : original card is remaining.
         require( silver_owner_count < silver_max );
         // require : ETH is greater than silver card price
-        require( msg.value >= silver_price );
+        require( msg.value == silver_price );
         // register new silver owner
         silver_list[silver_owner_count] = Silver(msg.sender, 0, false);
         silver_owner_count++;
@@ -222,7 +222,7 @@ contract Membership is Ownable{
         // require : original card is remaining.
         require( bronze_owner_count < bronze_max );
         // require : ETH is greater than bronze card price
-        require( msg.value >= bronze_price );
+        require( msg.value == bronze_price );
         // register new bronze owner
         bronze_list[bronze_owner_count] = Bronze(msg.sender, 0, false);
         bronze_owner_count++;
