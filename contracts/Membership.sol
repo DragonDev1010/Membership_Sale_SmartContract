@@ -212,27 +212,24 @@ contract Membership is Ownable{
     }
     // are going to sell gold card
     // check if the function caller is gold card owner 
-    function gold_sell(uint _price) public payable returns(bool) {
-        for (uint i = 0 ; i < gold_owner_count ; i++) {
-            if (gold_list[i].owner == msg.sender) {
-                gold_list[i].price = _price;
-                emit GoldSell(msg.sender, gold_list[i].price, gold_list[i].sell_approve);
-                return true;
-            }
-        }
-        emit GoldSell(msg.sender, 0, false);
-        return false;
+    function gold_sell(uint card_id, uint _price) public payable returns(bool) {
+        // require : there is gold card with `card_id`
+        require(card_id < gold_owner_count, "Card ID can not be exceed current card owners amount");
+        // require : can not card price as zero or negative 
+        require(_price > 0, "Card price need to be set greater than zero.");
+        gold_list[card_id].price = _price;
+        emit GoldSell(msg.sender, gold_list[card_id].price, gold_list[card_id].sell_approve);
+        return true;
     }
     // approve gold card buy request
-    function gold_approve () public returns(bool) {
-        for (uint i = 0 ; i < gold_owner_count ; i++) {
-            if (gold_list[i].owner == msg.sender) {
-                gold_list[i].sell_approve = true;
-                emit GoldApprove(msg.sender, gold_list[i].price, gold_list[i].sell_approve);
-                return true;
-            }
-        }
-        return false;
+    function gold_approve (uint card_id) public returns(bool) {
+        // require : card_id need to be less than card owners amount
+        require(card_id < gold_owner_count, "Card id has to be less than card owner amount");
+        // require : only card owner can approve the card selling
+        require(msg.sender == gold_list[card_id].owner, "Only card owner can approve the card selling");
+        gold_list[card_id].sell_approve = true;
+        emit GoldApprove(msg.sender, gold_list[card_id].price, gold_list[card_id].sell_approve);
+        return true;
     }
     // gold card buy (user -> user)
     function gold_request_buy (uint card_id) public payable {
@@ -265,27 +262,24 @@ contract Membership is Ownable{
     }
     // are going to sell silver card
     // check if the function caller is silver card owner 
-    function silver_sell(uint _price) public payable returns(bool) {
-        for (uint i = 0 ; i < silver_owner_count ; i++) {
-            if (silver_list[i].owner == msg.sender) {
-                silver_list[i].price = _price;
-                emit SilverSell(msg.sender, silver_list[i].price, silver_list[i].sell_approve);
-                return true;
-            }
-        }
-        emit SilverSell(msg.sender, 0, false);
-        return false;
+    function silver_sell(uint card_id, uint _price) public payable returns(bool) {
+        // require : there is silver card with `card_id`
+        require(card_id < silver_owner_count, "Card ID can not be exceed current card owners amount");
+        // require : can not card price as zero or negative 
+        require(_price > 0, "Card price need to be set greater than zero.");
+        silver_list[card_id].price = _price;
+        emit SilverSell(msg.sender, silver_list[card_id].price, silver_list[card_id].sell_approve);
+        return true;
     }
     // approve silver card buy request
-    function silver_approve () public returns(bool) {
-        for (uint i = 0 ; i < silver_owner_count ; i++) {
-            if (silver_list[i].owner == msg.sender) {
-                silver_list[i].sell_approve = true;
-                emit SilverApprove(msg.sender, silver_list[i].price, silver_list[i].sell_approve);
-                return true;
-            }
-        }
-        return false;
+    function silver_approve (uint card_id) public returns(bool) {
+        // require : card_id need to be less than card owners amount
+        require(card_id < silver_owner_count, "Card id has to be less than card owner amount");
+        // require : only card owner can approve the card selling
+        require(msg.sender == silver_list[card_id].owner, "Only card owner can approve the card selling");
+        silver_list[card_id].sell_approve = true;
+        emit SilverApprove(msg.sender, silver_list[card_id].price, silver_list[card_id].sell_approve);
+        return true;
     }
     // silver card buy (user -> user)
     function silver_request_buy (uint card_id) public payable {
@@ -318,27 +312,24 @@ contract Membership is Ownable{
     }
     // are going to sell bronze card
     // check if the function caller is bronze card owner 
-    function bronze_sell(uint _price) public payable returns(bool) {
-        for (uint i = 0 ; i < bronze_owner_count ; i++) {
-            if (bronze_list[i].owner == msg.sender) {
-                bronze_list[i].price = _price;
-                emit BronzeSell(msg.sender, bronze_list[i].price, bronze_list[i].sell_approve);
-                return true;    
-            }
-        }
-        emit BronzeSell(msg.sender, 0, false);
-        return false;
+    function bronze_sell(uint card_id, uint _price) public payable returns(bool) {
+        // require : there is bronze card with `card_id`
+        require(card_id < bronze_owner_count, "Card ID can not be exceed current card owners amount");
+        // require : can not card price as zero or negative 
+        require(_price > 0, "Card price need to be set greater than zero.");
+        bronze_list[card_id].price = _price;
+        emit BronzeSell(msg.sender, bronze_list[card_id].price, bronze_list[card_id].sell_approve);
+        return true;
     }
     // approve bronze card buy request
-    function bronze_approve () public returns(bool) {
-        for (uint i = 0 ; i < bronze_owner_count ; i++) {
-            if (bronze_list[i].owner == msg.sender) {
-                bronze_list[i].sell_approve = true;
-                emit BronzeApprove(msg.sender, bronze_list[i].price, bronze_list[i].sell_approve);
-                return true;
-            }
-        }
-        return false;
+    function bronze_approve (uint card_id) public returns(bool) {
+        // require : card_id need to be less than card owners amount
+        require(card_id < bronze_owner_count, "Card id has to be less than card owner amount");
+        // require : only card owner can approve the card selling
+        require(msg.sender == bronze_list[card_id].owner, "Only card owner can approve the card selling");
+        bronze_list[card_id].sell_approve = true;
+        emit BronzeApprove(msg.sender, bronze_list[card_id].price, bronze_list[card_id].sell_approve);
+        return true;
     }
     // bronze card buy (user -> user)
     function bronze_request_buy (uint card_id) public payable {
