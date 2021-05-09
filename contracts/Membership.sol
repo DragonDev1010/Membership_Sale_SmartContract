@@ -204,7 +204,7 @@ contract Membership is Ownable{
         // require : original card is remaining.
         require( gold_owner_count < gold_max );
         // require : ETH is greater than gold card price
-        require( msg.value >= gold_price );
+        require( msg.value == gold_price );
         // register new gold owner
         gold_list[gold_owner_count] = Gold(msg.sender, 0, false);
         gold_owner_count++;
@@ -236,7 +236,7 @@ contract Membership is Ownable{
         // require: card is placed on the sell list
         require( gold_list[card_id].price > 0 );
         // require: request buy is greater than minimum price
-        require( msg.value >= gold_list[card_id].price );
+        require( msg.value == gold_list[card_id].price );
         // require : check if card owner approves the request
         require( gold_list[card_id].sell_approve == true );
         // transfer ETH from new owner to old owner
@@ -254,7 +254,7 @@ contract Membership is Ownable{
         // require : original card is remaining.
         require( silver_owner_count < silver_max );
         // require : ETH is greater than silver card price
-        require( msg.value >= silver_price );
+        require( msg.value == silver_price );
         // register new silver owner
         silver_list[silver_owner_count] = Silver(msg.sender, 0, false);
         silver_owner_count++;
@@ -286,7 +286,7 @@ contract Membership is Ownable{
         // require: card is placed on the sell list
         require( silver_list[card_id].price > 0 );
         // require: request buy is greater than minimum price
-        require( msg.value >= silver_list[card_id].price );
+        require( msg.value == silver_list[card_id].price );
         // require : check if card owner approves the request
         require( silver_list[card_id].sell_approve == true );
         // transfer ETH from new owner to old owner
@@ -304,7 +304,7 @@ contract Membership is Ownable{
         // require : original card is remaining.
         require( bronze_owner_count < bronze_max );
         // require : ETH is greater than bronze card price
-        require( msg.value >= bronze_price );
+        require( msg.value == bronze_price );
         // register new bronze owner
         bronze_list[bronze_owner_count] = Bronze(msg.sender, 0, false);
         bronze_owner_count++;
@@ -336,7 +336,7 @@ contract Membership is Ownable{
         // require: card is placed on the sell list
         require( bronze_list[card_id].price > 0 );
         // require: request buy is greater than minimum price
-        require( msg.value >= bronze_list[card_id].price );
+        require( msg.value == bronze_list[card_id].price );
         // require : check if card owner approves the request
         require( bronze_list[card_id].sell_approve == true );
         // transfer ETH from new owner to old owner
