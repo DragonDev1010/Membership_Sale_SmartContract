@@ -108,7 +108,7 @@ contract Membership is Ownable{
     // gold card owner account
     uint public gold_owner_count = 0;
     // gold card default price
-    uint constant gold_price = 1e19;
+    uint constant gold_price = 15e18;
     // gold card max amount
     uint constant gold_max = 15;
     event GoldPurchased (
