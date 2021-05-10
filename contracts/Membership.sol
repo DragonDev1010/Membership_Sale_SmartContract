@@ -244,6 +244,7 @@ contract Membership is Ownable{
         // move the card ownership from old owner to new owner
         gold_list[card_id].owner = msg.sender;
         gold_list[card_id].sell_approve = false;
+        gold_list[card_id].price = 0;
         emit GoldBought(msg.sender, gold_list[card_id].price, gold_list[card_id].sell_approve);
     }
     //////////////////////////////////////////////
@@ -294,6 +295,7 @@ contract Membership is Ownable{
         // move the card ownership from old owner to new owner
         silver_list[card_id].owner = msg.sender;
         silver_list[card_id].sell_approve = false;
+        silver_list[card_id].price = 0;
         emit SilverBought(msg.sender, silver_list[card_id].price, silver_list[card_id].sell_approve);
     }    
     //////////////////////////////////////////////
@@ -344,6 +346,7 @@ contract Membership is Ownable{
         // move the card ownership from old owner to new owner
         bronze_list[card_id].owner = msg.sender;
         bronze_list[card_id].sell_approve = false;
+        bronze_list[card_id].price = 0;
         emit BronzeBought(msg.sender, bronze_list[card_id].price, bronze_list[card_id].sell_approve);
     }    
 
